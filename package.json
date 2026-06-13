@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://eyala.github.io/portfolio-academique-villetaneuse/",
+  "homepage": "https://skge93.github.io/portfolio-academique-villetaneuse/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
