@@ -181,6 +181,7 @@ export const saesY1 = [
     titre: 'Tableaux & calculs en Python',
     desc: 'Manipulation de tableaux et calculs de directions (latitude/longitude) — premier langage appris, construction de la logique de développement.',
     img: 'tableaux-python-1.png',
+    gallery: ['tableaux-python-1.png', 'tableaux-python-2.png', 'tableaux-python-3.png', 'tableaux-python-4.png', 'tableaux-python-5.png'],
   },
   {
     competence: 'Réaliser',
@@ -189,6 +190,7 @@ export const saesY1 = [
     titre: 'POO en Java (calculatrice + formes)',
     desc: 'Calculatrice avec gestion d’exceptions (try-catch) et dessin de formes géométriques : héritage, interfaces, bibliothèques graphiques.',
     img: 'calculatrice-java-1.png',
+    gallery: ['calculatrice-java-1.png', 'calculatrice-java-2.png', 'calculatrice-java-3.png', 'calculatrice-java-4.png', 'calculatrice-java-5.png', 'cover-formejava.png'],
   },
   // — Optimiser —
   {
@@ -205,6 +207,7 @@ export const saesY1 = [
     titre: 'Ensemble de Mandelbrot (Python)',
     desc: 'Algorithmes manipulant des nombres complexes et générant des graphes — algorithmique d’un point de vue mathématique.',
     img: 'mandelbrot-1.png',
+    gallery: ['mandelbrot-1.png', 'mandelbrot-2.png', 'mandelbrot-3.png', 'mandelbrot-4.png'],
   },
   // — Administrer —
   {
@@ -229,6 +232,7 @@ export const saesY1 = [
     titre: 'Base de données universitaire',
     desc: 'Conception d’un modèle de données (tables étudiant, évaluation…) répondant à un système d’information.',
     img: 'bdd-1.png',
+    gallery: ['bdd-1.png', 'bdd-2.png', 'bdd-3.png'],
   },
   {
     competence: 'Gérer',
@@ -237,6 +241,7 @@ export const saesY1 = [
     titre: 'Système de gestion des notes',
     desc: 'Modèle de données pour notes/bilans + restrictions d’accès par rôle (étudiants, enseignants, responsables).',
     img: 'notes-1.png',
+    gallery: ['notes-1.png', 'notes-2.png', 'notes-3.png'],
   },
   // — Conduire —
   {
@@ -253,6 +258,7 @@ export const saesY1 = [
     titre: 'Simulation client / développeur',
     desc: 'Recueil de besoins, cahier des charges, travail à distance (maquettes, mails, gestion des délais).',
     img: 'simulation-1.png',
+    gallery: ['simulation-1.png', 'simulation-2.png', 'simulation-3.png', 'simulation-4.png', 'simulation-5.png', 'simulation-6.png', 'simulation-7.png', 'simulation-8.png', 'simulation-9.png'],
   },
   // — Collaborer —
   {
@@ -269,6 +275,7 @@ export const saesY1 = [
     titre: 'Site « À quatre mains » (Basquiat & Warhol)',
     desc: 'Projet de groupe : site d’exposition, traduction en anglais via JavaScript, premier site complet.',
     img: 'cover-basquiat.png',
+    gallery: ['cover-basquiat.png', 'basquiat-1.png', 'basquiat-2.png', 'basquiat-3.png'],
   },
 ]
 

@@ -1,10 +1,12 @@
 import { motion } from 'framer-motion'
 import Reveal from './Reveal'
+import { useLightbox } from './Lightbox'
 import { saes, saesY1 } from '../data/content'
 
 const img = (f) => `${import.meta.env.BASE_URL}img/${f}`
 
 export default function Saes() {
+  const { open } = useLightbox()
   return (
     <section className="section saes" id="saes">
       <div className="container">
@@ -27,6 +29,12 @@ export default function Saes() {
         <Reveal>
           <h3 className="saes__sub">1ʳᵉ année — une SAÉ par compétence (S1 &amp; S2)</h3>
         </Reveal>
+        <Reveal delay={0.05}>
+          <p className="saes__note">
+            Ici, seulement les SAÉ de 1ʳᵉ année : elles sont <b>nombreuses et courtes</b> (une par
+            compétence et par semestre). Les SAÉ plus conséquentes sont <b>détaillées juste en dessous</b>.
+          </p>
+        </Reveal>
         <div className="saey1-grid">
           {saesY1.map((s, i) => {
             const todo = s.titre === 'À compléter'
@@ -41,9 +49,12 @@ export default function Saes() {
                 style={{ '--accent': s.color }}
               >
                 {s.img && (
-                  <a className="saey1-card__imgwrap" href={img(s.img)} target="_blank" rel="noreferrer">
+                  <button className="saey1-card__imgwrap" onClick={() => open(s.gallery || [s.img], 0)}>
                     <img src={img(s.img)} alt={s.titre} loading="lazy" />
-                  </a>
+                    {s.gallery && s.gallery.length > 1 && (
+                      <span className="img-count">⊞ {s.gallery.length}</span>
+                    )}
+                  </button>
                 )}
                 <header className="saey1-card__top">
                   <span className="saey1-card__comp">{s.competence}</span>
@@ -70,9 +81,9 @@ export default function Saes() {
                 </div>
 
                 {s.img && (
-                  <a className="sae-card__imgwrap" href={img(s.img)} target="_blank" rel="noreferrer">
+                  <button className="sae-card__imgwrap" onClick={() => open([s.img], 0)}>
                     <img className="sae-card__img" src={img(s.img)} alt={s.titre} loading="lazy" />
-                  </a>
+                  </button>
                 )}
 
                 <div className="sae-card__meta">

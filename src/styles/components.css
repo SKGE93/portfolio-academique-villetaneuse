@@ -412,11 +412,54 @@
 .exp-card__points li::before { content: '→'; position: absolute; left: 0; color: var(--amber); }
 
 /* ===================== IMAGES (captures) ===================== */
+.saes__note {
+  margin: -8px 0 24px; color: var(--muted); font-size: 0.96rem; max-width: 70ch;
+  padding: 12px 16px; border-left: 3px solid var(--coral);
+  background: rgba(255, 93, 87, 0.06); border-radius: 0 10px 10px 0;
+}
 .saey1-card__imgwrap,
 .proj-card__imgwrap,
 .sae-card__imgwrap {
-  display: block; overflow: hidden; cursor: zoom-in;
+  position: relative; display: block; width: 100%; padding: 0;
+  font: inherit; text-align: left; overflow: hidden; cursor: zoom-in;
   background: var(--paper-2); border: 1px solid var(--line);
+}
+.img-count {
+  position: absolute; right: 10px; bottom: 10px;
+  font-family: var(--font-display); font-weight: 600; font-size: 0.78rem;
+  padding: 4px 10px; border-radius: 100px;
+  background: rgba(22, 19, 31, 0.78); color: #fff; backdrop-filter: blur(4px);
+}
+
+/* — Lightbox — */
+.lb {
+  position: fixed; inset: 0; z-index: 2000;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(12, 10, 18, 0.92); backdrop-filter: blur(6px);
+  padding: clamp(20px, 5vw, 70px);
+}
+.lb__img {
+  max-width: 100%; max-height: 100%;
+  border-radius: 10px; box-shadow: 0 30px 80px -20px rgba(0,0,0,0.7);
+  object-fit: contain; cursor: default;
+}
+.lb__close, .lb__nav {
+  position: absolute; display: flex; align-items: center; justify-content: center;
+  border: 1px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.08);
+  color: #fff; cursor: pointer; border-radius: 50%; backdrop-filter: blur(4px);
+  transition: background 0.2s, transform 0.2s;
+}
+.lb__close:hover, .lb__nav:hover { background: rgba(255,255,255,0.2); }
+.lb__close { top: 22px; right: 22px; width: 46px; height: 46px; font-size: 1.2rem; }
+.lb__nav { top: 50%; transform: translateY(-50%); width: 54px; height: 54px; font-size: 2rem; line-height: 1; }
+.lb__nav:hover { transform: translateY(-50%) scale(1.08); }
+.lb__nav--prev { left: 20px; }
+.lb__nav--next { right: 20px; }
+.lb__count {
+  position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%);
+  font-family: var(--font-display); font-weight: 600; font-size: 0.9rem;
+  color: #fff; padding: 7px 16px; border-radius: 100px;
+  background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2);
 }
 .saey1-card__imgwrap { border-radius: 12px; margin-bottom: 14px; aspect-ratio: 16 / 10; }
 .proj-card__imgwrap { border-radius: 14px; margin-bottom: 16px; aspect-ratio: 16 / 9; }

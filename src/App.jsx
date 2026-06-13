@@ -1,3 +1,4 @@
+import { LightboxProvider } from './components/Lightbox'
 import ScrollProgress from './components/ScrollProgress'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
@@ -13,7 +14,7 @@ import './styles/components.css'
 
 export default function App() {
   return (
-    <>
+    <LightboxProvider>
       <ScrollProgress />
       <Nav />
       <main>
@@ -27,6 +28,6 @@ export default function App() {
         <Conclusion />
       </main>
       <Footer />
-    </>
+    </LightboxProvider>
   )
 }
