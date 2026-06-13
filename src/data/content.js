@@ -328,6 +328,7 @@ export const stages = [
 export const projects = [
   {
     nom: 'CinéSearch',
+    img: 'cover-cinesearch.png',
     type: 'Personnel',
     annee: '2026',
     desc: 'Application de recherche de films (API TMDB) : films populaires, synopsis, note, date de sortie, page de détail, interface française. Hooks personnalisés et recherche avec debounce.',
@@ -336,19 +337,12 @@ export const projects = [
   },
   {
     nom: 'WeatherDash',
+    img: 'cover-weatherdash.png',
     type: 'Personnel',
     annee: '2026',
     desc: 'Dashboard météo temps réel avec navigation multi-vues. Architecture orientée services Angular, Observables RxJS, autocomplétion de villes, prévisions 24h et graphiques Chart.js.',
     tech: ['Angular 19', 'TypeScript', 'Chart.js', 'RxJS', 'OpenWeatherMap'],
     link: 'https://github.com/SKGE93/weather-dash',
-  },
-  {
-    nom: 'Gestion Utilisateurs — FastAPI',
-    type: 'Universitaire',
-    annee: '2025',
-    desc: 'Backend de gestion d’utilisateurs en architecture par couches (routers, services, modèles). ORM SQLAlchemy, sessions, et pratique du TDD (tests avant le code).',
-    tech: ['Python', 'FastAPI', 'SQLAlchemy', 'TDD', 'OAuth/JWT'],
-    link: '',
   },
   {
     nom: 'Messagerie annotée',
