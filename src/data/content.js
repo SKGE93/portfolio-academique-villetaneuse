@@ -18,7 +18,7 @@ export const profile = {
 // Section INTRODUCTION
 export const intro = {
   paragraphs: [
-    'Je suis passionné d’informatique depuis tout jeune. Ce qui m’a attiré, c’est surtout la curiosité de comprendre comment les choses fonctionnent, et c’est elle qui m’a donné envie d’en faire mon métier. Le BUT Informatique de l’IUT de Villetaneuse m’a ensuite permis d’acquérir des bases solides en développement web, en programmation et en gestion de bases de données, en alternant projets académiques, SAÉ et mises en situation professionnelle.',
+    'Comprendre comment les choses fonctionnent a toujours été ma plus grande curiosité, et c’est elle qui m’a naturellement mené vers l’informatique puis vers le développement. Le BUT Informatique de l’IUT de Villetaneuse m’a permis d’en faire un vrai métier, en construisant des bases solides en développement web, en programmation et en gestion de bases de données, au fil des projets académiques, des SAÉ et des mises en situation professionnelle.',
     'J’ai un intérêt particulier pour le développement web et mobile, et je m’oriente aujourd’hui vers la data et l’intelligence artificielle. Je nourris cette direction par une veille active sur Hacker News, Reddit et Dev.to autour de l’IA générative et des LLMs.',
     'Mon ambition est de devenir développeur full stack avec une spécialisation Data & IA. C’est pourquoi je poursuis mes études en MSc Data Engineering à Aivancity, école spécialisée en IA et data, après avoir consolidé mes bases tout au long du BUT.',
   ],
