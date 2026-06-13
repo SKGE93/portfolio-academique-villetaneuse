@@ -161,8 +161,8 @@
 .competences__intro { max-width: 760px; margin-bottom: 56px; }
 .comp-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
 .comp-card {
   position: relative;
