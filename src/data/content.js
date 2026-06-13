@@ -1,7 +1,6 @@
 // ============================================================
 //  Contenu du portfolio — Séraphin Eyala
 //  Textes à la 1re personne, sans tiret « — » ni deux-points « : ».
-//  Les passages marqués « (à confirmer) » sont à valider/affiner.
 // ============================================================
 
 export const profile = {
@@ -282,13 +281,17 @@ export const stages = [
     ],
     pointsForts: [
       'J’ai automatisé des processus métiers réels avec un fort impact (Apps Script)',
-      'J’ai été polyvalent entre développement, réseau et administration Workspace',
+      'J’ai géré et même apprécié de jongler entre plusieurs chantiers en parallèle',
+      'J’ai été force de proposition pour répondre aux besoins du directeur, même sans solution toute prête',
     ],
-    vigilance: ['Mieux prioriser les nombreux chantiers menés en parallèle (à confirmer)'],
-    surprises: ['J’ai été surpris par la portée des automatisations à l’échelle de tout un domaine Workspace (à confirmer)'],
-    problemes: ['Avec autant de chantiers en parallèle, garder une priorisation claire a parfois été un vrai casse-tête (à confirmer)'],
+    vigilance: ['Veiller à viser des missions plus techniques pour progresser davantage'],
+    surprises: [
+      'L’ambiance était plus qu’agréable, travailler dans un lieu sain change toute la dynamique de travail, même en groupe',
+      'J’ai pu toucher à des tâches plus concrètes, ce qui m’a été très utile',
+    ],
+    problemes: ['Mes tâches n’étaient pas si difficiles, donc je n’ai pas autant monté en compétences que je l’aurais souhaité'],
     acquis: ['Je documente désormais systématiquement chaque outil pour le rendre maintenable'],
-    refaire: ['Si c’était à refaire, je cadrerais les priorités dès le départ et je documenterais au fil de l’eau plutôt qu’à la fin (à confirmer)'],
+    refaire: ['Si c’était à refaire, je demanderais des missions un peu plus techniques pour progresser davantage'],
     competences: ['Réaliser', 'Optimiser', 'Administrer', 'Conduire', 'Collaborer'],
   },
   {
@@ -303,14 +306,15 @@ export const stages = [
       'J’ai été force de proposition technique et je me suis adapté au sein d’une petite équipe.',
     ],
     pointsForts: [
-      'Je me suis adapté rapidement à un nouvel environnement',
-      'J’ai gardé mon autonomie tout en m’intégrant bien à l’équipe',
+      'Je me suis adapté rapidement pour une première expérience de développeur',
+      'J’ai appris à répondre aux besoins techniques de mes collègues et à leur faire gagner du temps',
+      'J’ai aimé être utile, apporter une évolution concrète à une entreprise est une sensation très agréable',
     ],
     vigilance: ['Dans un cadre associatif à but non lucratif, il faut composer avec des moyens limités'],
     surprises: ['J’ai été marqué par la gestion constructive des désaccords en réunion, à l’opposé du cadre scolaire'],
-    problemes: ['Les moyens limités du cadre associatif imposaient parfois des compromis techniques (à confirmer)'],
+    problemes: ['Les tâches étaient assez simples, surtout de la maintenance WordPress, donc peu complexes techniquement'],
     acquis: ['J’ai développé mon écoute active et ma capacité à intégrer les retours pour améliorer mon travail'],
-    refaire: ['Si c’était à refaire, je proposerais plus tôt mes idées d’automatisation no code (à confirmer)'],
+    refaire: ['Si c’était à refaire, je viserais des missions un peu plus complexes que la maintenance WordPress'],
     competences: ['Réaliser', 'Optimiser', 'Collaborer'],
   },
 ]
