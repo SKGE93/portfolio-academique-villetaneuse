@@ -218,6 +218,111 @@ export const stages = [
   },
 ]
 
+// PROJETS — universitaires ET personnels (type clairement affiché)
+export const projects = [
+  {
+    nom: 'CinéSearch',
+    type: 'Personnel',
+    annee: '2026',
+    desc: 'Application de recherche de films (API TMDB) : films populaires, synopsis, note, date de sortie, page de détail, interface française. Hooks personnalisés et recherche avec debounce.',
+    tech: ['React', 'Vite', 'React Router', 'Axios', 'TMDB API'],
+    link: 'https://github.com/SKGE93/cine-search',
+  },
+  {
+    nom: 'WeatherDash',
+    type: 'Personnel',
+    annee: '2026',
+    desc: 'Dashboard météo temps réel avec navigation multi-vues. Architecture orientée services Angular, Observables RxJS, autocomplétion de villes, prévisions 24h et graphiques Chart.js.',
+    tech: ['Angular 19', 'TypeScript', 'Chart.js', 'RxJS', 'OpenWeatherMap'],
+    link: 'https://github.com/SKGE93/weather-dash',
+  },
+  {
+    nom: 'Gestion Utilisateurs — FastAPI',
+    type: 'Universitaire',
+    annee: '2025',
+    desc: 'Backend de gestion d’utilisateurs en architecture par couches (routers, services, modèles). ORM SQLAlchemy, sessions, et pratique du TDD (tests avant le code).',
+    tech: ['Python', 'FastAPI', 'SQLAlchemy', 'TDD', 'OAuth/JWT'],
+    link: '',
+  },
+  {
+    nom: 'Messagerie annotée',
+    type: 'Universitaire',
+    annee: '2024',
+    desc: 'Messagerie temps réel où l’on doit annoter les messages pour continuer à échanger. Front HTML/CSS/JS, back PHP MVC, temps réel via WebSocket (Ratchet). SAE de groupe.',
+    tech: ['PHP', 'MVC', 'WebSocket', 'Ratchet', 'Figma'],
+    link: 'https://github.com/Cheick6/SAE_S4',
+  },
+  {
+    nom: 'OtakuGo',
+    type: 'Universitaire',
+    annee: '2024',
+    desc: 'Application mobile cross-platform de recommandation de contenus selon les préférences utilisateur. Moteur de recommandation, fiches détaillées, persistance JSON locale. Équipe de 5.',
+    tech: ['Flutter', 'Dart', 'JSON'],
+    link: 'https://github.com/SKGE93/Application-mobile-de-recommendations-anime',
+  },
+  {
+    nom: 'Expo « À quatre mains » — Basquiat & Warhol',
+    type: 'Universitaire',
+    annee: '2023',
+    desc: 'Site d’exposition fictive autour des œuvres collaboratives de Basquiat et Warhol. Traduction anglaise dynamique en JS, vidéo immersive. Premier site complet (fin de 1ʳᵉ année).',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Figma'],
+    link: 'https://github.com/SKGE93/Expo_Basquiat',
+  },
+  {
+    nom: 'La ferme de la ville',
+    type: 'Universitaire',
+    annee: '2023',
+    desc: 'Simulation client/développeur : conception d’un site sur un thème imposé par le « client », avec itérations et intégration des retours sur du code évolutif.',
+    tech: ['HTML', 'CSS', 'Bootstrap'],
+    link: 'https://github.com/SKGE93/La-ferme-de-la-ville',
+  },
+  {
+    nom: 'Shapes — formes géométriques en Java',
+    type: 'Universitaire',
+    annee: '2023',
+    desc: 'Application graphique Java pour dessiner des formes (maisons, montagnes, paysages). Modélisation UML, composition de scènes, gestion d’exceptions. Premier contact POO + bibliothèques externes.',
+    tech: ['Java', 'UML', 'POO'],
+    link: '',
+  },
+]
+
+// SOFT SKILLS & EXPÉRIENCE TERRAIN (sécurité événementielle / JO 2024)
+export const softskills = {
+  intro:
+    'Au-delà du code, mon expérience d’agent de sécurité événementielle — notamment lors des Jeux Olympiques 2024 — a forgé des qualités humaines que je réinvestis dans le travail en équipe technique.',
+  experiences: [
+    {
+      poste: 'Agent SSIAP1 — Jeux Olympiques 2024',
+      structure: 'BSL Sécurité · Grand Palais, Paris',
+      periode: 'Juin — Août 2024',
+      points: [
+        'Gestion du public et communication avec les touristes (contexte international)',
+        'Travail en équipe et direction d’une équipe d’agents',
+        'Gestion du stress en situation imprévue, rigueur et ponctualité',
+      ],
+    },
+    {
+      poste: 'Diplômes SSIAP1 & APS',
+      structure: 'FP Académie',
+      periode: '2024',
+      points: [
+        'Service de Sécurité Incendie et d’Assistance aux Personnes (SSIAP1)',
+        'Agent de Prévention et de Sécurité (APS)',
+      ],
+    },
+  ],
+  skills: [
+    'Créativité',
+    'Ambition',
+    'Esprit d’équipe',
+    'Autonomie',
+    'Rigueur',
+    'Gestion du stress',
+    'Sens des responsabilités',
+    'Communication',
+  ],
+}
+
 // CONCLUSION
 export const conclusion = {
   paragraphs: [

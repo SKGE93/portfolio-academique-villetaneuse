@@ -4,7 +4,9 @@ const links = [
   { href: '#intro', label: 'Introduction' },
   { href: '#competences', label: 'Compétences' },
   { href: '#saes', label: 'SAÉ' },
-  { href: '#stage', label: 'Stage' },
+  { href: '#projects', label: 'Projets' },
+  { href: '#stage', label: 'Stages' },
+  { href: '#softskills', label: 'Soft skills' },
   { href: '#conclusion', label: 'Conclusion' },
 ]
 

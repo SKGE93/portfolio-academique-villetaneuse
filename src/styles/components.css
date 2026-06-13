@@ -312,6 +312,69 @@
   color: var(--muted); font-size: 0.85rem;
 }
 
+/* ========================== PROJETS ========================== */
+.projects { background: var(--paper-2); }
+.projects__intro { max-width: 780px; margin-bottom: 44px; }
+.projects__filters { display: flex; gap: 10px; margin-top: 30px; flex-wrap: wrap; }
+.pfilter {
+  font-family: var(--font-display); font-weight: 600; font-size: 0.9rem;
+  padding: 9px 20px; border-radius: 100px; cursor: pointer;
+  border: 1.5px solid var(--line); background: #fff; color: var(--muted);
+  transition: all 0.25s;
+}
+.pfilter:hover { border-color: var(--ink); color: var(--ink); }
+.pfilter.is-active { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+
+.proj-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.proj-card {
+  display: flex; flex-direction: column;
+  padding: 26px; border-radius: var(--radius);
+  background: var(--card); border: 1px solid var(--line);
+  transition: transform 0.35s cubic-bezier(.34,1.56,.64,1), box-shadow 0.35s;
+}
+.proj-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.proj-card__top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.proj-badge {
+  font-family: var(--font-display); font-weight: 600; font-size: 0.72rem;
+  letter-spacing: 0.04em; padding: 5px 12px; border-radius: 100px;
+}
+.proj-badge--perso { background: var(--violet); color: #fff; }
+.proj-badge--univ { background: rgba(52, 224, 176, 0.18); color: #0c7a5b; }
+.proj-card__year { font-family: var(--font-display); font-size: 0.82rem; color: var(--muted); }
+.proj-card__title { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; letter-spacing: -0.01em; }
+.proj-card__desc { color: var(--muted); font-size: 0.95rem; margin-top: 12px; flex: 1; }
+.proj-card__tech { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 18px; }
+.proj-card__link {
+  margin-top: 18px; font-family: var(--font-display); font-weight: 600; font-size: 0.9rem;
+  color: var(--violet-deep);
+}
+.proj-card__link:hover { color: var(--coral); }
+.proj-card__link--off { color: var(--muted); font-weight: 500; font-style: italic; }
+
+/* ======================== SOFT SKILLS ======================== */
+.soft__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(30px, 6vw, 80px); align-items: start; }
+.soft__left { position: sticky; top: 110px; align-self: start; }
+.soft__chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; }
+.soft-chip {
+  font-family: var(--font-display); font-weight: 500; font-size: 0.9rem;
+  padding: 9px 18px; border-radius: 100px;
+  background: var(--card); border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+}
+.soft__right { display: flex; flex-direction: column; gap: 18px; }
+.exp-card {
+  padding: 26px; border-radius: var(--radius);
+  background: var(--card); border: 1px solid var(--line);
+  border-left: 5px solid var(--amber);
+}
+.exp-card__head { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+.exp-card__head h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; }
+.exp-card__period { font-family: var(--font-display); font-size: 0.82rem; color: var(--muted); white-space: nowrap; }
+.exp-card__structure { color: var(--coral); font-weight: 600; margin-top: 4px; font-size: 0.95rem; }
+.exp-card__points { list-style: none; margin-top: 16px; display: flex; flex-direction: column; gap: 9px; }
+.exp-card__points li { padding-left: 20px; position: relative; color: var(--fg); font-size: 0.95rem; }
+.exp-card__points li::before { content: '→'; position: absolute; left: 0; color: var(--amber); }
+
 /* ========================= RESPONSIVE ========================= */
 @media (max-width: 900px) {
   .nav__links {
@@ -327,9 +390,13 @@
   .intro__head { position: static; }
   .comp-grid { grid-template-columns: 1fr 1fr; }
   .stage__grid { grid-template-columns: 1fr; }
+  .proj-grid { grid-template-columns: 1fr 1fr; }
+  .soft__grid { grid-template-columns: 1fr; }
+  .soft__left { position: static; }
 }
 @media (max-width: 600px) {
   .comp-grid { grid-template-columns: 1fr; }
+  .proj-grid { grid-template-columns: 1fr; }
   .sae-card__meta { grid-template-columns: 1fr; }
   .sae-card__cols { grid-template-columns: 1fr; }
   .stage__crit { grid-template-columns: 1fr; }
