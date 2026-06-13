@@ -286,7 +286,10 @@ export const stages = [
     ],
     vigilance: ['Mieux prioriser les nombreux chantiers menés en parallèle (à confirmer)'],
     surprises: ['J’ai été surpris par la portée des automatisations à l’échelle de tout un domaine Workspace (à confirmer)'],
+    problemes: ['Avec autant de chantiers en parallèle, garder une priorisation claire a parfois été un vrai casse-tête (à confirmer)'],
     acquis: ['Je documente désormais systématiquement chaque outil pour le rendre maintenable'],
+    refaire: ['Si c’était à refaire, je cadrerais les priorités dès le départ et je documenterais au fil de l’eau plutôt qu’à la fin (à confirmer)'],
+    competences: ['Réaliser', 'Optimiser', 'Administrer', 'Conduire', 'Collaborer'],
   },
   {
     annee: 'BUT 2',
@@ -305,7 +308,10 @@ export const stages = [
     ],
     vigilance: ['Dans un cadre associatif à but non lucratif, il faut composer avec des moyens limités'],
     surprises: ['J’ai été marqué par la gestion constructive des désaccords en réunion, à l’opposé du cadre scolaire'],
+    problemes: ['Les moyens limités du cadre associatif imposaient parfois des compromis techniques (à confirmer)'],
     acquis: ['J’ai développé mon écoute active et ma capacité à intégrer les retours pour améliorer mon travail'],
+    refaire: ['Si c’était à refaire, je proposerais plus tôt mes idées d’automatisation no code (à confirmer)'],
+    competences: ['Réaliser', 'Optimiser', 'Collaborer'],
   },
 ]
 

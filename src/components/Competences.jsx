@@ -42,12 +42,20 @@ export default function Competences() {
               <p className="comp-card__sub">{c.sous}</p>
               <p className="comp-card__resume">{c.resume}</p>
 
+              <span className="comp-card__label">Outils</span>
               <div className="comp-card__tags">
                 {c.outils.map((o) => <Tag label={o} key={o} />)}
               </div>
 
               <footer className="comp-card__foot">
-                <b>Preuves</b> {c.preuves.join(' · ')}
+                <div className="comp-card__fline">
+                  <b>Ressources · modules</b>
+                  <span>{c.ressources.join(' · ')}</span>
+                </div>
+                <div className="comp-card__fline">
+                  <b>SAÉ &amp; preuves</b>
+                  <span>{c.preuves.join(' · ')}</span>
+                </div>
               </footer>
             </motion.article>
           ))}

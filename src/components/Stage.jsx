@@ -21,6 +21,16 @@ function StageBlock({ stage, index }) {
               {stage.missions.map((m, i) => <li key={i}>{m}</li>)}
             </ul>
           </Reveal>
+          {stage.competences && (
+            <Reveal delay={0.2}>
+              <div className="stage__comp">
+                <span className="stage__comp-label">Compétences du BUT mobilisées</span>
+                <div className="stage__comp-list">
+                  {stage.competences.map((c) => <span className="stage-chip" key={c}>{c}</span>)}
+                </div>
+              </div>
+            </Reveal>
+          )}
         </div>
 
         <div className="stage__right">
@@ -32,8 +42,10 @@ function StageBlock({ stage, index }) {
               ['Points forts', stage.pointsForts, 'good'],
               ['Points de vigilance', stage.vigilance, 'watch'],
               ['Bonnes surprises', stage.surprises, 'next'],
+              ['Vrais problèmes', stage.problemes, 'watch'],
               ['Acquis pour la suite', stage.acquis, 'good'],
-            ].map(([label, items, tone], i) => (
+              ['Si c’était à refaire', stage.refaire, 'next'],
+            ].filter(([, items]) => items && items.length).map(([label, items, tone], i) => (
               <Reveal delay={0.12 + i * 0.06} key={label}>
                 <div className={`crit-box crit-box--${tone}`}>
                   <h5>{label}</h5>
