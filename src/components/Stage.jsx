@@ -25,7 +25,7 @@ function StageBlock({ stage, index }) {
 
         <div className="stage__right">
           <Reveal delay={0.1}>
-            <h4 className="stage__crit-title">Recul critique &amp; auto-évaluation</h4>
+            <h4 className="stage__crit-title">Recul critique &amp; autoévaluation</h4>
           </Reveal>
           <div className="stage__crit">
             {[

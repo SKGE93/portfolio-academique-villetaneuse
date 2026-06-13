@@ -16,8 +16,8 @@ export default function Competences() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="section-lead">
-              Pour chaque compétence : une synthèse des outils, des expériences et des acquis,
-              reliée aux ressources (modules) et aux SAÉ travaillées.
+              Pour chaque compétence, je fais une synthèse de mes outils, de mes expériences et de
+              mes acquis, en m’appuyant sur les ressources (modules) et les SAÉ travaillées.
             </p>
           </Reveal>
         </div>

@@ -20,20 +20,20 @@ export default function Saes() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="section-lead">
-              Les SAÉ (Situations d’Apprentissage et d’Évaluation) jalonnent les trois années :
-              une par compétence et par semestre en 1ʳᵉ année, puis des projets plus ambitieux ensuite.
+              Les SAÉ (Situations d’Apprentissage et d’Évaluation) jalonnent mes trois années,
+              avec une SAÉ par compétence et par semestre en 1ʳᵉ année, puis des projets plus ambitieux ensuite.
             </p>
           </Reveal>
         </div>
 
         {/* — 1ʳᵉ année : grille compacte, 1 par compétence × semestre — */}
         <Reveal>
-          <h3 className="saes__sub">1ʳᵉ année — une SAÉ par compétence (S1 &amp; S2)</h3>
+          <h3 className="saes__sub">1ʳᵉ année · une SAÉ par compétence (S1 &amp; S2)</h3>
         </Reveal>
         <Reveal delay={0.05}>
           <p className="saes__note">
-            Ici, seulement les SAÉ de 1ʳᵉ année : elles sont <b>nombreuses et courtes</b> (une par
-            compétence et par semestre). Les SAÉ plus conséquentes sont <b>détaillées juste en dessous</b>.
+            Ici, je montre seulement mes SAÉ de 1ʳᵉ année, elles sont <b>nombreuses et courtes</b> (une par
+            compétence et par semestre). Mes SAÉ plus conséquentes sont <b>détaillées juste en dessous</b>.
           </p>
         </Reveal>
         <div className="saey1-grid">
@@ -70,7 +70,7 @@ export default function Saes() {
 
         {/* — 2ᵉ & 3ᵉ année : cartes détaillées — */}
         <Reveal>
-          <h3 className="saes__sub saes__sub--mt">2ᵉ &amp; 3ᵉ année — SAÉ projets (mémo &amp; auto-évaluation)</h3>
+          <h3 className="saes__sub saes__sub--mt">2ᵉ &amp; 3ᵉ année · mes SAÉ projets (mémo &amp; autoévaluation)</h3>
         </Reveal>
         <div className="sae-list">
           {saes.map((s, i) => (

@@ -26,8 +26,8 @@ export default function Projects() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="section-lead">
-              Projets <b>universitaires</b> (SAÉ, travaux encadrés) et projets <b>personnels</b>
-              {' '}développés en autonomie — chaque carte indique clairement sa nature.
+              Je regroupe ici mes projets <b>universitaires</b> (SAÉ et travaux encadrés) et mes
+              projets <b>personnels</b> développés en autonomie. Chaque carte indique clairement sa nature.
             </p>
           </Reveal>
 

@@ -56,8 +56,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7, duration: 0.7 }}
         >
-          {profile.role} — {profile.formation}.<br />
-          Valorisation et auto-évaluation des compétences acquises tout au long du parcours à {profile.ecole}.
+          {profile.role} · {profile.formation}.<br />
+          Je valorise et j’évalue les compétences que j’ai acquises tout au long de mon parcours à {profile.ecole}.
         </motion.p>
 
         <motion.div

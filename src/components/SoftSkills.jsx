@@ -7,7 +7,7 @@ export default function SoftSkills() {
       <div className="container">
         <div className="soft__grid">
           <div className="soft__left">
-            <Reveal><span className="eyebrow">Au-delà du code</span></Reveal>
+            <Reveal><span className="eyebrow">En dehors du code</span></Reveal>
             <Reveal delay={0.05}>
               <h2 className="section-title">
                 Soft skills &amp;<br /><span className="serif">expérience terrain</span>

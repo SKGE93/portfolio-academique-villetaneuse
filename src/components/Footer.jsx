@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="footer__meta">
           <span>{profile.name}</span>
           <span>{profile.formation} · {profile.ecole}</span>
-          <span>© {new Date().getFullYear()} — Portfolio académique</span>
+          <span>© {new Date().getFullYear()} · Portfolio académique</span>
         </div>
       </div>
     </footer>

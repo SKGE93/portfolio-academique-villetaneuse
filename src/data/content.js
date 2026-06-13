@@ -1,29 +1,28 @@
 // ============================================================
 //  Contenu du portfolio — Séraphin Eyala
-//  Rempli depuis PROFIL_COMPLET.md. Les passages d'auto-évaluation
-//  marqués « (à confirmer) » sont des propositions à valider/affiner.
-//  Le design s'adapte automatiquement à ce fichier.
+//  Textes à la 1re personne, sans tiret « — » ni deux-points « : ».
+//  Les passages marqués « (à confirmer) » sont à valider/affiner.
 // ============================================================
 
 export const profile = {
   name: 'Séraphin Eyala',
-  role: 'Développeur Full-Stack — Data & IA',
-  formation: 'BUT Informatique — Développement d’applications',
+  role: 'Développeur Full Stack · Data & IA',
+  formation: 'BUT Informatique · Développement d’applications',
   ecole: 'IUT de Villetaneuse · USPN',
-  annees: '2023 — 2026',
+  annees: '2023 à 2026',
   email: 'eyalas472@gmail.com',
   github: 'https://github.com/SKGE93',
   linkedin: 'https://linkedin.com/in/seraphin-eyala',
   portfolio: 'https://github.com/SKGE93',
-  tagline: 'Portfolio académique — démarche de valorisation des compétences',
+  tagline: 'Portfolio académique, ma démarche de valorisation des compétences',
 }
 
 // Section INTRODUCTION
 export const intro = {
   paragraphs: [
     'Passionné d’informatique depuis tout jeune, j’en ai fait mon métier. Le BUT Informatique de l’IUT de Villetaneuse m’a permis d’acquérir des compétences solides en développement web, en programmation et en gestion de bases de données, en alternant projets académiques, SAÉ et mises en situation professionnelle.',
-    'J’ai un intérêt particulier pour le développement web et mobile, et je m’oriente aujourd’hui vers la data et l’intelligence artificielle — une veille active sur Hacker News, Reddit et Dev.to autour de l’IA générative et des LLMs nourrit cette direction.',
-    'Mon ambition : devenir développeur full-stack avec une spécialisation Data & IA. C’est pourquoi je poursuis mes études en MSc Data Engineering à Aivancity, école spécialisée en IA et data, après avoir consolidé mes bases tout au long du BUT.',
+    'J’ai un intérêt particulier pour le développement web et mobile, et je m’oriente aujourd’hui vers la data et l’intelligence artificielle. Je nourris cette direction par une veille active sur Hacker News, Reddit et Dev.to autour de l’IA générative et des LLMs.',
+    'Mon ambition est de devenir développeur full stack avec une spécialisation Data & IA. C’est pourquoi je poursuis mes études en MSc Data Engineering à Aivancity, école spécialisée en IA et data, après avoir consolidé mes bases tout au long du BUT.',
   ],
   highlights: [
     { k: '6', v: 'compétences du référentiel' },
@@ -109,84 +108,82 @@ export const competences = [
 ]
 
 // Bilan des SAÉ — uniquement les vraies SAÉ, du plus récent au plus ancien.
-// (Les projets-preuves par compétence sont, eux, rattachés aux compétences ci-dessus.)
-// Les points d'auto-évaluation marqués « (à confirmer) » sont à valider.
 export const saes = [
   {
     code: 'SAÉ · S6',
     img: 'cover-voronoi.png',
-    titre: 'Diagramme de Voronoï — application web (S6A01 · Groupe J)',
+    titre: 'Diagramme de Voronoï, application web (S6A01 · Groupe J)',
     objectif:
-      'Développer une application web générant un diagramme de Voronoï à partir de points fournis par l’utilisateur (fichier .txt de coordonnées), avec calcul automatique et export du résultat en SVG.',
+      'Avec mon groupe, j’ai développé une application web qui génère un diagramme de Voronoï à partir de points fournis par l’utilisateur (un fichier .txt de coordonnées), avec un calcul automatique et un export du résultat en SVG.',
     equipe: 'Projet de groupe (Groupe J)',
     duree: 'Semestre 6',
     taches: [
-      'Phase 1 — implémentation : chargement d’un fichier de coordonnées, calcul du diagramme de Voronoï, export SVG + contrôles de validité des données',
-      'Phase 2 — comparaison de 4 IA génératives (ChatGPT, Claude, Gemini, Mistral) pour régénérer/améliorer l’application',
-      'Phase 3 — travail individuel d’approfondissement',
-      'Tests unitaires (Vitest) et tests end-to-end (Playwright)',
+      'Phase 1, l’implémentation, avec le chargement d’un fichier de coordonnées, le calcul du diagramme et l’export SVG accompagné de contrôles de validité',
+      'Phase 2, la comparaison de 4 IA génératives (ChatGPT, Claude, Gemini, Mistral) pour régénérer et améliorer l’application',
+      'Phase 3, un travail individuel d’approfondissement',
+      'Des tests unitaires avec Vitest et des tests de bout en bout avec Playwright',
     ],
     outils: ['JavaScript', 'D3.js (Delaunay/Voronoï)', 'SVG', 'Vite', 'Vitest', 'Playwright'],
-    resultats: 'Application générant et exportant des diagrammes de Voronoï, accompagnée d’une étude comparative des implémentations produites par différentes IA.',
-    valorisation: 'Algorithmes géométriques, qualité logicielle (tests unitaires + e2e) et regard critique sur les outils d’IA générative — en plein dans mon orientation Data & IA.',
-    pointsForts: ['Sujet algorithmique exigeant (géométrie de Voronoï / Delaunay)', 'Démarche de tests automatisés (Vitest + Playwright)'],
-    vigilance: ['Contrôler la validité des données d’entrée pour éviter un rendu vide (à confirmer)'],
-    acquis: ['Comparer objectivement plusieurs IA sur une même tâche technique (à confirmer)'],
+    resultats: 'On a obtenu une application qui génère et exporte des diagrammes de Voronoï, accompagnée d’une étude comparative des implémentations produites par différentes IA.',
+    valorisation: 'Des algorithmes géométriques, de la qualité logicielle (tests unitaires et de bout en bout) et un regard critique sur les outils d’IA générative, en plein dans mon orientation Data & IA.',
+    pointsForts: ['J’ai aimé relever un sujet algorithmique exigeant (géométrie de Voronoï et Delaunay)', 'J’ai mis en place de vrais tests automatisés (Vitest et Playwright)'],
+    vigilance: ['Bien contrôler la validité des données d’entrée pour éviter un rendu vide (à confirmer)'],
+    acquis: ['J’ai appris à comparer objectivement plusieurs IA sur une même tâche technique (à confirmer)'],
   },
   {
     code: 'SAÉ · S5',
     img: 'cover-otakugo.png',
-    titre: 'OtakuGo — application mobile de recommandation',
+    titre: 'OtakuGo, application mobile de recommandation',
     objectif:
-      'Concevoir une application mobile cross-platform recommandant des contenus selon les préférences de l’utilisateur (sélection de genres, fiches détaillées).',
+      'Avec mon équipe, j’ai conçu une application mobile multiplateforme qui recommande des contenus selon les préférences de l’utilisateur (sélection de genres et fiches détaillées).',
     equipe: 'Équipe de 5',
     duree: 'Semestre 5',
     taches: [
-      'Moteur de recommandation par préférences',
-      'Fiches détaillées (synopsis, note, épisodes)',
-      'Persistance JSON locale',
-      'Développement cross-platform Flutter / Dart',
+      'Un moteur de recommandation par préférences',
+      'Des fiches détaillées (synopsis, note, épisodes)',
+      'Une persistance JSON locale',
+      'Un développement multiplateforme en Flutter et Dart',
     ],
     outils: ['Flutter', 'Dart', 'JSON', 'Cross-platform'],
-    resultats: 'Application mobile complète fonctionnant sur Android et iOS.',
-    valorisation: 'Expérience concrète du mobile et du travail en équipe de 5 — utile pour des missions full-stack/mobile.',
-    pointsForts: ['Réussir un projet sur un langage non maîtrisé au départ (Flutter / Dart)', 'Travail en équipe élargie (5 personnes)'],
-    vigilance: ['Synchronisation des contributions à 5 (à confirmer)'],
-    acquis: ['Réutiliser mes compétences existantes pour monter rapidement en compétence sur un nouveau langage'],
+    resultats: 'On a livré une application mobile complète qui fonctionne sur Android et iOS.',
+    valorisation: 'Une expérience concrète du mobile et du travail en équipe de 5, utile pour des missions full stack ou mobile.',
+    pointsForts: ['J’ai réussi un projet sur un langage que je ne maîtrisais pas au départ (Flutter et Dart)', 'J’ai travaillé dans une équipe élargie de 5 personnes'],
+    vigilance: ['Mieux synchroniser les contributions à 5 (à confirmer)'],
+    acquis: ['J’ai appris à réutiliser mes compétences existantes pour monter rapidement en compétence sur un nouveau langage'],
   },
   {
-    code: 'SAÉ · S3–S4',
+    code: 'SAÉ · S3 & S4',
     img: 'cover-messagerie.png',
     titre: 'Messagerie instantanée avec annotation des messages',
     objectif:
-      'Développer une messagerie temps réel où, pour continuer à échanger, chaque utilisateur doit annoter les messages — afin d’encourager une réflexion active et une meilleure compréhension des échanges.',
+      'Avec mon groupe, j’ai développé une messagerie en temps réel où, pour continuer à échanger, chaque utilisateur doit annoter les messages, ce qui encourage une réflexion active et une meilleure compréhension des échanges.',
     equipe: 'Projet de groupe',
     duree: 'Semestres 3 & 4',
     taches: [
-      'Conception des maquettes sur Figma (interface & expérience utilisateur)',
-      'Front-end HTML / CSS / JavaScript (structuration, formulaires, dynamisation)',
-      'Back-end PHP en architecture MVC (logique applicative + base de données)',
-      'Échanges temps réel via WebSocket (bibliothèque PHP Ratchet)',
+      'La conception des maquettes sur Figma (interface & expérience utilisateur)',
+      'L’intégration front en HTML, CSS et JavaScript (structuration, formulaires, dynamisation)',
+      'Le back en PHP avec une architecture MVC (logique applicative et base de données)',
+      'Les échanges en temps réel via WebSocket (bibliothèque PHP Ratchet)',
     ],
     outils: ['PHP', 'MVC', 'WebSocket', 'Ratchet', 'JavaScript', 'Figma'],
-    resultats: 'Conversations fluides et instantanées entre utilisateurs avec mécanique d’annotation.',
-    valorisation: 'Maîtrise du temps réel (WebSocket) et d’une architecture MVC propre — directement valorisable en stage/alternance web.',
-    pointsForts: ['Architecture MVC claire et séparée', 'Découverte du temps réel (WebSocket)'],
-    vigilance: ['Coordination du travail de groupe sur la même base de code (à confirmer)'],
-    acquis: ['Mieux découper les tâches Git en amont (à confirmer)'],
+    resultats: 'On a obtenu des conversations fluides et instantanées entre utilisateurs, avec la mécanique d’annotation.',
+    valorisation: 'Une maîtrise du temps réel (WebSocket) et d’une architecture MVC propre, directement valorisable en stage ou en alternance web.',
+    pointsForts: ['J’ai structuré une architecture MVC claire et séparée', 'J’ai découvert le temps réel avec les WebSocket'],
+    vigilance: ['Mieux coordonner le travail de groupe sur la même base de code (à confirmer)'],
+    acquis: ['J’ai compris qu’il faut mieux découper les tâches Git en amont (à confirmer)'],
   },
 ]
 
-// SAÉ de 1ʳᵉ année — 1 par compétence et par semestre (S1 & S2).
-// ⚠️ L'affectation S1/S2 est une 1ʳᵉ proposition à ajuster ; « à compléter » = créneau à remplir.
+// SAÉ de 1re année, une par compétence et par semestre (S1 & S2).
+// L'affectation S1/S2 est une 1re proposition à ajuster ; « À compléter » = créneau à remplir.
 export const saesY1 = [
-  // — Réaliser —
+  // Réaliser
   {
     competence: 'Réaliser',
     color: 'var(--violet)',
     semestre: 'S1',
     titre: 'Tableaux & calculs en Python',
-    desc: 'Manipulation de tableaux et calculs de directions (latitude/longitude) — premier langage appris, construction de la logique de développement.',
+    desc: 'J’ai manipulé des tableaux et calculé des directions (latitude et longitude). C’est mon premier langage et le début de ma logique de développement.',
     img: 'tableaux-python-1.png',
     gallery: ['tableaux-python-1.png', 'tableaux-python-2.png', 'tableaux-python-3.png', 'tableaux-python-4.png', 'tableaux-python-5.png'],
   },
@@ -195,11 +192,11 @@ export const saesY1 = [
     color: 'var(--violet)',
     semestre: 'S2',
     titre: 'POO en Java (calculatrice + formes)',
-    desc: 'Calculatrice avec gestion d’exceptions (try-catch) et dessin de formes géométriques : héritage, interfaces, bibliothèques graphiques.',
+    desc: 'Une calculatrice avec gestion d’exceptions (try-catch) et un dessin de formes géométriques, où j’ai pratiqué l’héritage, les interfaces et les bibliothèques graphiques.',
     img: 'calculatrice-java-1.png',
     gallery: ['calculatrice-java-1.png', 'calculatrice-java-2.png', 'calculatrice-java-3.png', 'calculatrice-java-4.png', 'calculatrice-java-5.png', 'cover-formejava.png'],
   },
-  // — Optimiser —
+  // Optimiser
   {
     competence: 'Optimiser',
     color: 'var(--coral)',
@@ -212,32 +209,32 @@ export const saesY1 = [
     color: 'var(--coral)',
     semestre: 'S2',
     titre: 'Ensemble de Mandelbrot (Python)',
-    desc: 'Algorithmes manipulant des nombres complexes et générant des graphes — algorithmique d’un point de vue mathématique.',
+    desc: 'Des algorithmes qui manipulent des nombres complexes et génèrent des graphes, de l’algorithmique vue sous un angle très mathématique.',
     img: 'mandelbrot-1.png',
     gallery: ['mandelbrot-1.png', 'mandelbrot-2.png', 'mandelbrot-3.png', 'mandelbrot-4.png'],
   },
-  // — Administrer —
+  // Administrer
   {
     competence: 'Administrer',
     color: 'var(--sky)',
     semestre: 'S1',
     titre: 'Préparation d’un serveur',
-    desc: 'Première installation de services réseau ; rédaction et présentation d’un compte rendu technique.',
+    desc: 'Ma première installation de services réseau, avec la rédaction et la présentation d’un compte rendu technique.',
   },
   {
     competence: 'Administrer',
     color: 'var(--sky)',
     semestre: 'S2',
     titre: 'Environnement LAMP',
-    desc: 'Mise en place d’un poste de développement : Linux, Apache, MySQL/MariaDB, PHP.',
+    desc: 'La mise en place d’un poste de développement avec Linux, Apache, MySQL/MariaDB et PHP.',
   },
-  // — Gérer —
+  // Gérer
   {
     competence: 'Gérer',
     color: 'var(--mint)',
     semestre: 'S1',
     titre: 'Base de données universitaire',
-    desc: 'Conception d’un modèle de données (tables étudiant, évaluation…) répondant à un système d’information.',
+    desc: 'J’ai conçu un modèle de données (tables étudiant, évaluation…) pour répondre à un système d’information.',
     img: 'bdd-1.png',
     gallery: ['bdd-1.png', 'bdd-2.png', 'bdd-3.png'],
   },
@@ -246,11 +243,11 @@ export const saesY1 = [
     color: 'var(--mint)',
     semestre: 'S2',
     titre: 'Système de gestion des notes',
-    desc: 'Modèle de données pour notes/bilans + restrictions d’accès par rôle (étudiants, enseignants, responsables).',
+    desc: 'Un modèle de données pour les notes et bilans, avec des restrictions d’accès par rôle (étudiants, enseignants, responsables).',
     img: 'notes-1.png',
     gallery: ['notes-1.png', 'notes-2.png', 'notes-3.png'],
   },
-  // — Conduire —
+  // Conduire
   {
     competence: 'Conduire',
     color: 'var(--amber)',
@@ -263,11 +260,11 @@ export const saesY1 = [
     color: 'var(--amber)',
     semestre: 'S2',
     titre: 'Simulation client / développeur',
-    desc: 'Recueil de besoins, cahier des charges, travail à distance (maquettes, mails, gestion des délais).',
+    desc: 'Du recueil de besoins, un cahier des charges et du travail à distance (maquettes, mails, gestion des délais).',
     img: 'simulation-1.png',
     gallery: ['simulation-1.png', 'simulation-2.png', 'simulation-3.png', 'simulation-4.png', 'simulation-5.png', 'simulation-6.png', 'simulation-7.png', 'simulation-8.png', 'simulation-9.png'],
   },
-  // — Collaborer —
+  // Collaborer
   {
     competence: 'Collaborer',
     color: 'var(--pink)',
@@ -280,54 +277,54 @@ export const saesY1 = [
     color: 'var(--pink)',
     semestre: 'S2',
     titre: 'Site « À quatre mains » (Basquiat & Warhol)',
-    desc: 'Projet de groupe : site d’exposition, traduction en anglais via JavaScript, premier site complet.',
+    desc: 'Un projet de groupe, mon premier site complet, avec un site d’exposition et une traduction en anglais via JavaScript.',
     img: 'cover-basquiat.png',
     gallery: ['cover-basquiat.png', 'basquiat-1.png', 'basquiat-2.png', 'basquiat-3.png'],
   },
 ]
 
-// Volets STAGE — BUT 3 et BUT 2 (2ᵉ année)
+// Volets STAGE — BUT 3 et BUT 2 (2e année)
 export const stages = [
   {
     annee: 'BUT 3',
     poste: 'Stagiaire IT',
-    entreprise: 'IFFP — Institut Français de Formation Professionnelle',
+    entreprise: 'IFFP, Institut Français de Formation Professionnelle',
     lieu: 'Nanterre, Île-de-France',
-    periode: 'Mars — Juin 2026',
+    periode: 'Mars à juin 2026',
     missions: [
-      'KioskSign — borne d’accueil interactive (Apps Script + HTML/CSS) alimentée dynamiquement par Google Sheets.',
-      'Signatures Gmail — déploiement automatique de signatures HTML personnalisées sur tout le domaine Google Workspace (clasp / Apps Script).',
-      'Workspace Cleaner & Radar Drive — nettoyage des fichiers orphelins/doublons et rapport de conformité des permissions Drive.',
-      'Dashboard MDP & Onboarding Professeurs — tableaux de bord et automatisation de l’intégration des nouveaux enseignants.',
-      'Modernisation réseau — segmentation VLAN, renforcement sécurité, administration Google Workspace.',
-      'Refonte du site vitrine sous WordPress / Elementor + documentation technique pour chaque projet.',
+      'J’ai créé KioskSign, une borne d’accueil interactive (Apps Script avec HTML et CSS) alimentée dynamiquement par Google Sheets.',
+      'J’ai automatisé le déploiement de signatures Gmail HTML personnalisées sur tout le domaine Google Workspace (clasp et Apps Script).',
+      'J’ai développé Workspace Cleaner et Radar Drive pour nettoyer les fichiers orphelins et doublons et produire un rapport de conformité des permissions Drive.',
+      'J’ai mis en place un Dashboard MDP et automatisé l’onboarding des nouveaux professeurs (intégration, comptes, accès).',
+      'J’ai participé à la modernisation du réseau, avec de la segmentation VLAN, du renforcement de sécurité et de l’administration Google Workspace.',
+      'J’ai refondu le site vitrine sous WordPress et Elementor, en documentant techniquement chaque projet.',
     ],
     pointsForts: [
-      'Automatisation à fort impact (Apps Script) sur des processus métiers réels',
-      'Polyvalence : développement, réseau et administration Workspace',
+      'J’ai automatisé des processus métiers réels avec un fort impact (Apps Script)',
+      'J’ai été polyvalent entre développement, réseau et administration Workspace',
     ],
-    vigilance: ['Prioriser les nombreux chantiers menés en parallèle (à confirmer)'],
-    surprises: ['Portée des automatisations à l’échelle de tout un domaine Workspace (à confirmer)'],
-    acquis: ['Documenter systématiquement chaque outil pour le rendre maintenable'],
+    vigilance: ['Mieux prioriser les nombreux chantiers menés en parallèle (à confirmer)'],
+    surprises: ['J’ai été surpris par la portée des automatisations à l’échelle de tout un domaine Workspace (à confirmer)'],
+    acquis: ['Je documente désormais systématiquement chaque outil pour le rendre maintenable'],
   },
   {
     annee: 'BUT 2',
     poste: 'Stagiaire Informatique & Web',
     entreprise: 'Association Jean Luc François',
     lieu: 'Pantin',
-    periode: 'Février — Mars 2025',
+    periode: 'Février à mars 2025',
     missions: [
-      'Refonte et maintenance du site WordPress — optimisation thèmes / extensions, amélioration des performances.',
-      'Mise en place de workflows No-Code (Airtable, Zapier) — réduction des tâches manuelles répétitives.',
-      'Force de proposition technique et adaptabilité au sein d’une équipe restreinte.',
+      'J’ai refondu et maintenu le site WordPress, en optimisant les thèmes, les extensions et les performances.',
+      'J’ai mis en place des workflows No Code (Airtable et Zapier) pour réduire les tâches manuelles répétitives.',
+      'J’ai été force de proposition technique et je me suis adapté au sein d’une petite équipe.',
     ],
     pointsForts: [
-      'Adaptation rapide à un nouvel environnement',
-      'Autonomie tout en s’intégrant bien à l’équipe',
+      'Je me suis adapté rapidement à un nouvel environnement',
+      'J’ai gardé mon autonomie tout en m’intégrant bien à l’équipe',
     ],
-    vigilance: ['Cadre associatif à but non lucratif : composer avec des moyens limités'],
-    surprises: ['Gestion constructive des désaccords en réunion, à l’opposé du cadre scolaire'],
-    acquis: ['Écoute active et prise en compte des retours pour améliorer le travail'],
+    vigilance: ['Dans un cadre associatif à but non lucratif, il faut composer avec des moyens limités'],
+    surprises: ['J’ai été marqué par la gestion constructive des désaccords en réunion, à l’opposé du cadre scolaire'],
+    acquis: ['J’ai développé mon écoute active et ma capacité à intégrer les retours pour améliorer mon travail'],
   },
 ]
 
@@ -370,7 +367,7 @@ export const projects = [
     link: 'https://github.com/SKGE93/Application-mobile-de-recommendations-anime',
   },
   {
-    nom: 'Expo « À quatre mains » — Basquiat & Warhol',
+    nom: 'Expo « À quatre mains », Basquiat & Warhol',
     img: 'cover-basquiat.png',
     type: 'Universitaire',
     annee: '2023',
@@ -388,7 +385,7 @@ export const projects = [
     link: 'https://github.com/SKGE93/La-ferme-de-la-ville',
   },
   {
-    nom: 'Shapes — formes géométriques en Java',
+    nom: 'Shapes, formes géométriques en Java',
     img: 'cover-formejava.png',
     type: 'Universitaire',
     annee: '2023',
@@ -401,16 +398,16 @@ export const projects = [
 // SOFT SKILLS & EXPÉRIENCE TERRAIN (sécurité événementielle / JO 2024)
 export const softskills = {
   intro:
-    'Au-delà du code, mon expérience d’agent de sécurité événementielle — notamment lors des Jeux Olympiques 2024 — a forgé des qualités humaines que je réinvestis dans le travail en équipe technique.',
+    'En dehors du code, mon expérience d’agent de sécurité événementielle, notamment lors des Jeux Olympiques 2024, a forgé des qualités humaines que je réinvestis dans le travail en équipe technique.',
   experiences: [
     {
-      poste: 'Agent SSIAP1 — Jeux Olympiques 2024',
+      poste: 'Agent SSIAP1 aux Jeux Olympiques 2024',
       structure: 'BSL Sécurité · Grand Palais, Paris',
-      periode: 'Juin — Août 2024',
+      periode: 'Juin à août 2024',
       points: [
-        'Gestion du public et communication avec les touristes (contexte international)',
-        'Travail en équipe et direction d’une équipe d’agents',
-        'Gestion du stress en situation imprévue, rigueur et ponctualité',
+        'J’ai géré le public et communiqué avec les touristes dans un contexte international',
+        'J’ai travaillé en équipe et dirigé une équipe d’agents',
+        'J’ai géré le stress en situation imprévue, avec rigueur et ponctualité',
       ],
     },
     {
@@ -438,8 +435,8 @@ export const softskills = {
 // CONCLUSION
 export const conclusion = {
   paragraphs: [
-    'Au fil du BUT, mes points forts se sont dessinés : une vraie polyvalence full-stack (du front React/Angular au back PHP, Java, Python/FastAPI), une capacité d’automatisation concrète démontrée en stage, et une aisance à apprendre en autonomie de nouvelles technologies.',
-    'Mes points de vigilance restent la priorisation quand les chantiers se multiplient et la structuration du travail de groupe — des axes que j’ai progressivement améliorés d’une SAÉ à l’autre.',
-    'Pour la suite, j’emporte une méthode : documenter, découper tôt, écouter les retours. Ces acquis nourrissent directement mon orientation vers la Data & l’IA et ma poursuite d’études en MSc Data Engineering à Aivancity.',
+    'Au fil du BUT, mes points forts se sont dessinés. J’ai gagné une vraie polyvalence full stack, du front React et Angular au back PHP, Java et Python, une capacité d’automatisation concrète démontrée en stage, et une aisance à apprendre de nouvelles technologies en autonomie.',
+    'Mes points de vigilance restent la priorisation quand les chantiers se multiplient et la structuration du travail de groupe, deux axes que j’ai progressivement améliorés d’une SAÉ à l’autre.',
+    'Pour la suite, j’emporte une méthode simple, documenter, découper tôt et écouter les retours. Ces acquis nourrissent directement mon orientation vers la Data & l’IA et ma poursuite d’études en MSc Data Engineering à Aivancity.',
   ],
 }
