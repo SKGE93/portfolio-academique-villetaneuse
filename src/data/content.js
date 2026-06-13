@@ -126,9 +126,9 @@ export const saes = [
     outils: ['JavaScript', 'D3.js (Delaunay/Voronoï)', 'SVG', 'Vite', 'Vitest', 'Playwright'],
     resultats: 'On a obtenu une application qui génère et exporte des diagrammes de Voronoï, accompagnée d’une étude comparative des implémentations produites par différentes IA.',
     valorisation: 'Des algorithmes géométriques, de la qualité logicielle (tests unitaires et de bout en bout) et un regard critique sur les outils d’IA générative, en plein dans mon orientation Data & IA.',
-    pointsForts: ['J’ai aimé relever un sujet algorithmique exigeant (géométrie de Voronoï et Delaunay)', 'J’ai mis en place de vrais tests automatisés (Vitest et Playwright)'],
-    vigilance: ['Bien contrôler la validité des données d’entrée pour éviter un rendu vide (à confirmer)'],
-    acquis: ['J’ai appris à comparer objectivement plusieurs IA sur une même tâche technique (à confirmer)'],
+    pointsForts: ['Je me suis formé à la génération de prompts pour obtenir un contenu de qualité sans gaspiller de tokens', 'J’ai comparé plusieurs IA sur la même tâche et mis en place de vrais tests automatisés (Vitest et Playwright)'],
+    vigilance: ['Coder la logique mathématique du diagramme a été la partie la plus pénible', 'La qualité du prompt change tout, un prompt mal rédigé donne un résultat faible'],
+    acquis: ['Certaines IA sont plus fortes en code, mais la qualité du prompt joue énormément sur le résultat', 'L’IA n’est pas toujours la meilleure solution, j’ai d’ailleurs eu recours à d’autres approches pendant le projet'],
   },
   {
     code: 'SAÉ · S5',
