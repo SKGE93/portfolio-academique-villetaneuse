@@ -121,24 +121,42 @@ export const saes = [
   },
 ]
 
-// Volet STAGE BUT 3
-export const stage = {
-  entreprise: 'IFFP — Institut Français de Formation Professionnelle',
-  lieu: 'Nanterre, Île-de-France',
-  periode: 'Mars — Mai 2026',
-  poste: 'Stagiaire IT',
-  missions: [
-    'TODO — Optimisation de solutions web sous WordPress / Elementor.',
-    'TODO — Automatisation de processus via Google Apps Script.',
-    'TODO — Intégration d’une API LLM pour automatiser des flux métiers.',
-  ],
-  // Recul critique
-  pointsForts: ['TODO'],
-  vigilance: ['TODO'],
-  surprises: ['TODO'],
-  problemes: ['TODO'],
-  acquis: ['TODO'],
-}
+// Volets STAGE — BUT 3 et BUT 2 (2ᵉ année)
+export const stages = [
+  {
+    annee: 'BUT 3',
+    poste: 'Stagiaire IT',
+    entreprise: 'IFFP — Institut Français de Formation Professionnelle',
+    lieu: 'Nanterre, Île-de-France',
+    periode: 'Mars — Mai 2026',
+    missions: [
+      'TODO — Optimisation de solutions web sous WordPress / Elementor.',
+      'TODO — Automatisation de processus via Google Apps Script.',
+      'TODO — Intégration d’une API LLM pour automatiser des flux métiers.',
+    ],
+    // Recul critique
+    pointsForts: ['TODO'],
+    vigilance: ['TODO'],
+    surprises: ['TODO'],
+    acquis: ['TODO'],
+  },
+  {
+    annee: 'BUT 2',
+    poste: 'Stagiaire Informatique & Web',
+    entreprise: 'Association Jean Luc François',
+    lieu: 'Pantin',
+    periode: 'Février — Mars 2025',
+    missions: [
+      'TODO — Refonte et maintenance du site WordPress (thèmes / extensions, performances).',
+      'TODO — Mise en place de workflows No-Code avec Airtable et Zapier.',
+    ],
+    // Recul critique
+    pointsForts: ['TODO'],
+    vigilance: ['TODO'],
+    surprises: ['TODO'],
+    acquis: ['TODO'],
+  },
+]
 
 // CONCLUSION
 export const conclusion = {
