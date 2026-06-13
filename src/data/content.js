@@ -150,9 +150,9 @@ export const saes = [
     outils: ['Flutter', 'Dart', 'JSON', 'Cross-platform'],
     resultats: 'Application mobile complète fonctionnant sur Android et iOS.',
     valorisation: 'Expérience concrète du mobile et du travail en équipe de 5 — utile pour des missions full-stack/mobile.',
-    pointsForts: ['Travail en équipe élargie (5 personnes)', 'Première app mobile aboutie'],
+    pointsForts: ['Réussir un projet sur un langage non maîtrisé au départ (Flutter / Dart)', 'Travail en équipe élargie (5 personnes)'],
     vigilance: ['Synchronisation des contributions à 5 (à confirmer)'],
-    acquis: ['Cadrer les rôles plus tôt dans le projet (à confirmer)'],
+    acquis: ['Réutiliser mes compétences existantes pour monter rapidement en compétence sur un nouveau langage'],
   },
   {
     code: 'SAÉ · S3–S4',

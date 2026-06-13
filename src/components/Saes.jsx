@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import Reveal from './Reveal'
+import Tag from './Tag'
 import { useLightbox } from './Lightbox'
 import { saes, saesY1 } from '../data/content'
 
@@ -109,7 +110,7 @@ export default function Saes() {
                 </div>
 
                 <div className="sae-card__tags">
-                  {s.outils.map((o) => <span className="tag" key={o}>{o}</span>)}
+                  {s.outils.map((o) => <Tag label={o} key={o} />)}
                 </div>
               </article>
             </Reveal>

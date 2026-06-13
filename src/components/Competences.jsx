@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import Reveal from './Reveal'
+import Tag from './Tag'
 import { competences } from '../data/content'
 
 export default function Competences() {
@@ -42,7 +43,7 @@ export default function Competences() {
               <p className="comp-card__resume">{c.resume}</p>
 
               <div className="comp-card__tags">
-                {c.outils.map((o) => <span className="tag" key={o}>{o}</span>)}
+                {c.outils.map((o) => <Tag label={o} key={o} />)}
               </div>
 
               <footer className="comp-card__foot">

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Reveal from './Reveal'
+import Tag from './Tag'
 import { useLightbox } from './Lightbox'
 import { projects } from '../data/content'
 
@@ -73,7 +74,7 @@ export default function Projects() {
                 <p className="proj-card__desc">{p.desc}</p>
 
                 <div className="proj-card__tech">
-                  {p.tech.map((t) => <span className="tag" key={t}>{t}</span>)}
+                  {p.tech.map((t) => <Tag label={t} key={t} />)}
                 </div>
 
                 {p.link ? (
