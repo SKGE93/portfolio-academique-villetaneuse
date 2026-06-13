@@ -12,7 +12,6 @@ export default function Footer() {
         <div className="footer__links">
           <a href={profile.github} target="_blank" rel="noreferrer">GitHub ↗</a>
           <a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a>
-          <a href={profile.portfolio} target="_blank" rel="noreferrer">Portfolio dev ↗</a>
         </div>
 
         <div className="footer__meta">

@@ -11,8 +11,7 @@ export const profile = {
   annees: '2023 à 2026',
   email: 'eyalas472@gmail.com',
   github: 'https://github.com/SKGE93',
-  linkedin: 'https://linkedin.com/in/seraphin-eyala',
-  portfolio: 'https://github.com/SKGE93',
+  linkedin: 'https://www.linkedin.com/in/seraphin-eyala-68557b279/',
   tagline: 'Portfolio académique, ma démarche de valorisation des compétences',
 }
 
