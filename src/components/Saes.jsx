@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import Reveal from './Reveal'
 import { saes, saesY1 } from '../data/content'
 
+const img = (f) => `${import.meta.env.BASE_URL}img/${f}`
+
 export default function Saes() {
   return (
     <section className="section saes" id="saes">
@@ -38,6 +40,11 @@ export default function Saes() {
                 transition={{ delay: (i % 4) * 0.05, duration: 0.5 }}
                 style={{ '--accent': s.color }}
               >
+                {s.img && (
+                  <a className="saey1-card__imgwrap" href={img(s.img)} target="_blank" rel="noreferrer">
+                    <img src={img(s.img)} alt={s.titre} loading="lazy" />
+                  </a>
+                )}
                 <header className="saey1-card__top">
                   <span className="saey1-card__comp">{s.competence}</span>
                   <span className="saey1-card__sem">{s.semestre}</span>
@@ -61,6 +68,12 @@ export default function Saes() {
                   <span className="sae-card__code">{s.code}</span>
                   <h3 className="sae-card__title">{s.titre}</h3>
                 </div>
+
+                {s.img && (
+                  <a className="sae-card__imgwrap" href={img(s.img)} target="_blank" rel="noreferrer">
+                    <img className="sae-card__img" src={img(s.img)} alt={s.titre} loading="lazy" />
+                  </a>
+                )}
 
                 <div className="sae-card__meta">
                   <div><b>Objectif</b><span>{s.objectif}</span></div>

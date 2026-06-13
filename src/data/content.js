@@ -128,6 +128,7 @@ export const saes = [
   },
   {
     code: 'SAÉ · S5',
+    img: 'cover-otakugo.png',
     titre: 'OtakuGo — application mobile de recommandation',
     objectif:
       'Concevoir une application mobile cross-platform recommandant des contenus selon les préférences de l’utilisateur (sélection de genres, fiches détaillées).',
@@ -148,6 +149,7 @@ export const saes = [
   },
   {
     code: 'SAÉ · S3–S4',
+    img: 'cover-messagerie.png',
     titre: 'Messagerie instantanée avec annotation des messages',
     objectif:
       'Développer une messagerie temps réel où, pour continuer à échanger, chaque utilisateur doit annoter les messages — afin d’encourager une réflexion active et une meilleure compréhension des échanges.',
@@ -178,6 +180,7 @@ export const saesY1 = [
     semestre: 'S1',
     titre: 'Tableaux & calculs en Python',
     desc: 'Manipulation de tableaux et calculs de directions (latitude/longitude) — premier langage appris, construction de la logique de développement.',
+    img: 'tableaux-python-1.png',
   },
   {
     competence: 'Réaliser',
@@ -185,6 +188,7 @@ export const saesY1 = [
     semestre: 'S2',
     titre: 'POO en Java (calculatrice + formes)',
     desc: 'Calculatrice avec gestion d’exceptions (try-catch) et dessin de formes géométriques : héritage, interfaces, bibliothèques graphiques.',
+    img: 'calculatrice-java-1.png',
   },
   // — Optimiser —
   {
@@ -200,6 +204,7 @@ export const saesY1 = [
     semestre: 'S2',
     titre: 'Ensemble de Mandelbrot (Python)',
     desc: 'Algorithmes manipulant des nombres complexes et générant des graphes — algorithmique d’un point de vue mathématique.',
+    img: 'mandelbrot-1.png',
   },
   // — Administrer —
   {
@@ -223,6 +228,7 @@ export const saesY1 = [
     semestre: 'S1',
     titre: 'Base de données universitaire',
     desc: 'Conception d’un modèle de données (tables étudiant, évaluation…) répondant à un système d’information.',
+    img: 'bdd-1.png',
   },
   {
     competence: 'Gérer',
@@ -230,6 +236,7 @@ export const saesY1 = [
     semestre: 'S2',
     titre: 'Système de gestion des notes',
     desc: 'Modèle de données pour notes/bilans + restrictions d’accès par rôle (étudiants, enseignants, responsables).',
+    img: 'notes-1.png',
   },
   // — Conduire —
   {
@@ -245,6 +252,7 @@ export const saesY1 = [
     semestre: 'S2',
     titre: 'Simulation client / développeur',
     desc: 'Recueil de besoins, cahier des charges, travail à distance (maquettes, mails, gestion des délais).',
+    img: 'simulation-1.png',
   },
   // — Collaborer —
   {
@@ -260,6 +268,7 @@ export const saesY1 = [
     semestre: 'S2',
     titre: 'Site « À quatre mains » (Basquiat & Warhol)',
     desc: 'Projet de groupe : site d’exposition, traduction en anglais via JavaScript, premier site complet.',
+    img: 'cover-basquiat.png',
   },
 ]
 
@@ -336,6 +345,7 @@ export const projects = [
   },
   {
     nom: 'Messagerie annotée',
+    img: 'cover-messagerie.png',
     type: 'Universitaire',
     annee: '2024',
     desc: 'Messagerie temps réel où l’on doit annoter les messages pour continuer à échanger. Front HTML/CSS/JS, back PHP MVC, temps réel via WebSocket (Ratchet). SAE de groupe.',
@@ -344,6 +354,7 @@ export const projects = [
   },
   {
     nom: 'OtakuGo',
+    img: 'cover-otakugo.png',
     type: 'Universitaire',
     annee: '2024',
     desc: 'Application mobile cross-platform de recommandation de contenus selon les préférences utilisateur. Moteur de recommandation, fiches détaillées, persistance JSON locale. Équipe de 5.',
@@ -352,6 +363,7 @@ export const projects = [
   },
   {
     nom: 'Expo « À quatre mains » — Basquiat & Warhol',
+    img: 'cover-basquiat.png',
     type: 'Universitaire',
     annee: '2023',
     desc: 'Site d’exposition fictive autour des œuvres collaboratives de Basquiat et Warhol. Traduction anglaise dynamique en JS, vidéo immersive. Premier site complet (fin de 1ʳᵉ année).',
@@ -360,6 +372,7 @@ export const projects = [
   },
   {
     nom: 'La ferme de la ville',
+    img: 'cover-fermedelaville.png',
     type: 'Universitaire',
     annee: '2023',
     desc: 'Simulation client/développeur : conception d’un site sur un thème imposé par le « client », avec itérations et intégration des retours sur du code évolutif.',
@@ -368,6 +381,7 @@ export const projects = [
   },
   {
     nom: 'Shapes — formes géométriques en Java',
+    img: 'cover-formejava.png',
     type: 'Universitaire',
     annee: '2023',
     desc: 'Application graphique Java pour dessiner des formes (maisons, montagnes, paysages). Modélisation UML, composition de scènes, gestion d’exceptions. Premier contact POO + bibliothèques externes.',

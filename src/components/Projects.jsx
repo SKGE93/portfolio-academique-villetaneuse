@@ -5,6 +5,8 @@ import { projects } from '../data/content'
 
 const filters = ['Tous', 'Universitaire', 'Personnel']
 
+const img = (f) => `${import.meta.env.BASE_URL}img/${f}`
+
 export default function Projects() {
   const [filter, setFilter] = useState('Tous')
   const shown = filter === 'Tous' ? projects : projects.filter((p) => p.type === filter)
@@ -53,6 +55,11 @@ export default function Projects() {
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
               >
+                {p.img && (
+                  <a className="proj-card__imgwrap" href={img(p.img)} target="_blank" rel="noreferrer">
+                    <img src={img(p.img)} alt={p.nom} loading="lazy" />
+                  </a>
+                )}
                 <header className="proj-card__top">
                   <span className={`proj-badge proj-badge--${p.type === 'Personnel' ? 'perso' : 'univ'}`}>
                     {p.type}
