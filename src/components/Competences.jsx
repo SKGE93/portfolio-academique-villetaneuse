@@ -46,7 +46,7 @@ export default function Competences() {
               </div>
 
               <footer className="comp-card__foot">
-                <span>{c.saes.join(' · ')}</span>
+                <b>Preuves</b> {c.preuves.join(' · ')}
               </footer>
             </motion.article>
           ))}

@@ -41,10 +41,10 @@ export const competences = [
     sous: 'un développement d’application',
     color: 'var(--violet)',
     resume:
-      'Concevoir et développer des applications de bout en bout : du premier algorithme en Python aux SPA modernes React/Angular, en passant par la POO en Java (héritage, interfaces, gestion d’exceptions).',
-    outils: ['Python', 'Java', 'React', 'Angular', 'PHP MVC', 'TypeScript'],
-    saes: ['Shapes (formes Java)', 'CinéSearch', 'WeatherDash'],
-    ressources: ['Algorithmique', 'Développement orienté objet', 'Développement web'],
+      'Python a été mon tout premier langage : manipuler des tableaux, calculer des directions à partir de coordonnées géographiques — c’est là que j’ai bâti ma logique de développement. En Java, j’ai approfondi la POO (héritage, interfaces) et la gestion des exceptions (try-catch, division par zéro) pour gagner en robustesse.',
+    outils: ['Python', 'Java', 'POO', 'Exceptions (try-catch)', 'Algorithmique'],
+    preuves: ['Tableaux Python', 'Calculatrice Java', 'Dessin de formes Java'],
+    ressources: ['Introduction à l’algorithmique', 'Développement orienté objet'],
   },
   {
     id: 'optimiser',
@@ -53,10 +53,10 @@ export const competences = [
     sous: 'des applications',
     color: 'var(--coral)',
     resume:
-      'Analyser et améliorer des algorithmes : manipulation de nombres complexes et génération de l’ensemble de Mandelbrot en Python, sensibilisation à la complexité et à la performance.',
-    outils: ['Python', 'Algorithmique', 'Structures de données'],
-    saes: ['Ensemble de Mandelbrot'],
-    ressources: ['Mathématiques pour l’informatique', 'Algorithmique avancée'],
+      'Sur l’ensemble de Mandelbrot en Python, j’ai codé des algorithmes manipulant des nombres complexes et générant des graphes pour les représenter. Un projet mathématique exigeant — pas mon préféré — mais qui m’a montré la richesse de Python, de la visualisation à la manipulation avancée de données.',
+    outils: ['Python', 'Nombres complexes', 'Algorithmique', 'Visualisation'],
+    preuves: ['Ensemble de Mandelbrot'],
+    ressources: ['Algorithmique avancée', 'Mathématiques pour l’informatique'],
   },
   {
     id: 'administrer',
@@ -65,9 +65,9 @@ export const competences = [
     sous: 'des systèmes informatiques communicants',
     color: 'var(--sky)',
     resume:
-      'Installer et configurer des services réseau : préparation de serveurs, environnement LAMP, segmentation VLAN et sécurité, administration Google Workspace — avec rédaction de comptes rendus techniques.',
-    outils: ['Linux', 'Apache', 'MySQL/MariaDB', 'Docker', 'VLAN', 'Google Workspace'],
-    saes: ['Préparation d’un serveur', 'Environnement LAMP', 'Modernisation réseau (stage)'],
+      'Première expérience d’installation de services réseau : préparation d’un serveur, puis mise en place d’un environnement LAMP (Linux, Apache, MySQL/MariaDB, PHP) pour préparer un poste de développement. J’ai surtout appris à rédiger et présenter un compte rendu technique, à l’écrit comme à l’oral.',
+    outils: ['Linux', 'Apache', 'MySQL/MariaDB', 'PHP', 'Services réseau'],
+    preuves: ['Préparation d’un serveur', 'Environnement LAMP'],
     ressources: ['Systèmes & réseaux', 'Administration système'],
   },
   {
@@ -77,9 +77,9 @@ export const competences = [
     sous: 'des données de l’information',
     color: 'var(--mint)',
     resume:
-      'Concevoir et exploiter des modèles de données : base de données universitaire, système de gestion des notes avec restrictions d’accès par rôle, modélisation relationnelle jusqu’à la BCNF et optimisation de requêtes.',
-    outils: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQL', 'SQLAlchemy'],
-    saes: ['Base de données universitaire', 'Système de gestion des notes', 'Gestion Utilisateurs (FastAPI)'],
+      'Premier contact concret avec la modélisation : conception d’une base de données universitaire (tables étudiant, évaluation…), puis d’un système de gestion des notes à partir d’un cahier des charges, avec des restrictions d’accès par rôle (étudiants, enseignants, responsables) pour simuler un vrai environnement de production.',
+    outils: ['SQL', 'Modélisation relationnelle', 'MySQL/MariaDB', 'Gestion des accès'],
+    preuves: ['Base de données universitaire', 'Système de gestion des notes'],
     ressources: ['Bases de données', 'Modélisation des données'],
   },
   {
@@ -89,10 +89,10 @@ export const competences = [
     sous: 'un projet',
     color: 'var(--amber)',
     resume:
-      'Cadrer et piloter un projet : simulation client/développeur (recueil de besoins, cahier des charges, dialogue continu, gestion des délais à distance), méthodes Agile/Scrum et diagramme de Gantt.',
-    outils: ['Agile / Scrum', 'Jira', 'Diagramme de Gantt', 'Figma'],
-    saes: ['La ferme de la ville (client/dév)'],
-    ressources: ['Gestion de projet', 'Management des SI'],
+      'Simulation client/développeur : tour à tour client (rédaction d’un cahier des charges) et développeur (consignes reçues d’autres étudiants). J’ai expérimenté le recueil de besoins par le dialogue, le travail à distance (maquettes, échanges par mail) et l’impact d’un client qui tarde à répondre sur les délais.',
+    outils: ['Cahier des charges', 'Maquettage', 'HTML/CSS/JS', 'Gestion des délais'],
+    preuves: ['Simulation client/développeur'],
+    ressources: ['Gestion de projet', 'Conduite de projet'],
   },
   {
     id: 'collaborer',
@@ -101,43 +101,38 @@ export const competences = [
     sous: 'au sein d’une équipe informatique',
     color: 'var(--pink)',
     resume:
-      'Travailler en équipe produit : projets de groupe (exposition Basquiat & Warhol, messagerie temps réel, OtakuGo à 5), versioning Git/GitHub, maquettage Figma, écoute active et intégration des retours.',
-    outils: ['Git', 'GitHub', 'Figma', 'Méthodes Agile'],
-    saes: ['Expo Basquiat & Warhol', 'Messagerie annotée (SAE S4)', 'OtakuGo'],
-    ressources: ['Travail en équipe', 'Droit numérique', 'Communication'],
+      'Mon projet de groupe préféré : le site de l’exposition « À quatre mains » (Basquiat & Warhol). Réalisé en fin de 1ʳᵉ année, il m’a permis de mobiliser toutes mes compétences — dont mes premiers pas en JavaScript (fonctionnalité de traduction) — et de mesurer ma progression sur un an.',
+    outils: ['HTML', 'CSS', 'JavaScript', 'Figma', 'Git'],
+    preuves: ['Site Basquiat & Warhol'],
+    ressources: ['Travail en équipe', 'Communication'],
   },
 ]
 
-// Bilan des SAÉ (mémos + auto-évaluation)
-// Les points d'auto-évaluation sont une première version (à confirmer).
+// Bilan des SAÉ — uniquement les vraies SAÉ, du plus récent au plus ancien.
+// (Les projets-preuves par compétence sont, eux, rattachés aux compétences ci-dessus.)
+// Les points d'auto-évaluation marqués « (à confirmer) » sont à valider.
 export const saes = [
   {
-    code: 'SAE S4',
-    titre: 'Messagerie instantanée annotée',
-    objectif:
-      'Développer une messagerie temps réel où chaque utilisateur doit annoter les messages pour continuer à échanger, afin d’encourager la réflexion active.',
-    equipe: 'Projet de groupe',
-    duree: 'Semestre 4',
-    taches: [
-      'Maquettage UX/UI sur Figma',
-      'Front-end HTML/CSS/JS',
-      'Back-end PHP en architecture MVC',
-      'Échanges temps réel via WebSocket (Ratchet)',
-    ],
-    outils: ['PHP', 'MVC', 'WebSocket', 'Ratchet', 'JavaScript', 'Figma'],
-    resultats: 'Application fonctionnelle de messagerie temps réel avec mécanique d’annotation.',
-    valorisation: 'Maîtrise du temps réel (WebSocket) et d’une architecture MVC propre — directement valorisable en stage/alternance web.',
-    pointsForts: ['Architecture MVC claire et séparée', 'Découverte du temps réel (WebSocket)'],
-    vigilance: ['Coordination du travail de groupe sur la même base de code (à confirmer)'],
-    acquis: ['Mieux découper les tâches Git en amont (à confirmer)'],
+    code: 'SAÉ · S6',
+    titre: 'SAÉ du semestre 6 — à venir',
+    objectif: 'À compléter — Séraphin enverra le détail de la SAÉ du S6.',
+    equipe: 'À compléter',
+    duree: 'Semestre 6',
+    taches: ['À compléter'],
+    outils: ['À compléter'],
+    resultats: 'À compléter.',
+    valorisation: 'À compléter.',
+    pointsForts: ['À compléter'],
+    vigilance: ['À compléter'],
+    acquis: ['À compléter'],
   },
   {
-    code: 'SAÉ',
+    code: 'SAÉ · S5',
     titre: 'OtakuGo — application mobile de recommandation',
     objectif:
       'Concevoir une application mobile cross-platform recommandant des contenus selon les préférences de l’utilisateur (sélection de genres, fiches détaillées).',
     equipe: 'Équipe de 5',
-    duree: 'Projet de groupe',
+    duree: 'Semestre 5',
     taches: [
       'Moteur de recommandation par préférences',
       'Fiches détaillées (synopsis, note, épisodes)',
@@ -152,22 +147,42 @@ export const saes = [
     acquis: ['Cadrer les rôles plus tôt dans le projet (à confirmer)'],
   },
   {
-    code: 'SAÉ',
+    code: 'SAÉ · S3–S4',
+    titre: 'Messagerie instantanée avec annotation des messages',
+    objectif:
+      'Développer une messagerie temps réel où, pour continuer à échanger, chaque utilisateur doit annoter les messages — afin d’encourager une réflexion active et une meilleure compréhension des échanges.',
+    equipe: 'Projet de groupe',
+    duree: 'Semestres 3 & 4',
+    taches: [
+      'Conception des maquettes sur Figma (interface & expérience utilisateur)',
+      'Front-end HTML / CSS / JavaScript (structuration, formulaires, dynamisation)',
+      'Back-end PHP en architecture MVC (logique applicative + base de données)',
+      'Échanges temps réel via WebSocket (bibliothèque PHP Ratchet)',
+    ],
+    outils: ['PHP', 'MVC', 'WebSocket', 'Ratchet', 'JavaScript', 'Figma'],
+    resultats: 'Conversations fluides et instantanées entre utilisateurs avec mécanique d’annotation.',
+    valorisation: 'Maîtrise du temps réel (WebSocket) et d’une architecture MVC propre — directement valorisable en stage/alternance web.',
+    pointsForts: ['Architecture MVC claire et séparée', 'Découverte du temps réel (WebSocket)'],
+    vigilance: ['Coordination du travail de groupe sur la même base de code (à confirmer)'],
+    acquis: ['Mieux découper les tâches Git en amont (à confirmer)'],
+  },
+  {
+    code: 'SAÉ · S2',
     titre: 'Site exposition « À quatre mains » (Basquiat & Warhol)',
     objectif:
-      'Réaliser, en fin de 1ʳᵉ année, un premier site complet présentant une exposition fictive autour des œuvres collaboratives de Basquiat et Warhol.',
+      'À partir des œuvres collaboratives de Basquiat et Warhol, concevoir un site retraçant l’exposition « À quatre mains » tout en imaginant une exposition fictive à venir.',
     equipe: 'Projet de groupe',
-    duree: 'Fin de 1ʳᵉ année',
+    duree: 'Semestre 2 (fin de 1ʳᵉ année)',
     taches: [
       'Maquettage Figma',
-      'Intégration HTML / CSS',
-      'Traduction anglaise dynamique en JavaScript',
-      'Intégration vidéo immersive',
+      'Intégration HTML / CSS, intégration de vidéos',
+      'Fonctionnalité de traduction en anglais via JavaScript',
+      'Invention d’une exposition future (recherche & créativité)',
     ],
     outils: ['HTML', 'CSS', 'JavaScript', 'Figma'],
-    resultats: 'Premier site complet mobilisant l’ensemble des compétences de 1ʳᵉ année.',
-    valorisation: 'Première démonstration de bout en bout de la chaîne front (maquette → intégration → interactivité).',
-    pointsForts: ['Premier projet complet maîtrisé', 'Introduction réussie à JavaScript'],
+    resultats: 'Premier site complet mobilisant l’ensemble des compétences de 1ʳᵉ année — résultat dont je suis très satisfait.',
+    valorisation: 'Démonstration de bout en bout de la chaîne front (maquette → intégration → interactivité) et de ma progression sur un an.',
+    pointsForts: ['Thème artistique laissant beaucoup de liberté créative', 'Mobilisation de toutes les compétences de 1ʳᵉ année'],
     vigilance: ['Code JS encore peu structuré à ce stade (à confirmer)'],
     acquis: ['Bases solides réinvesties dans les projets suivants'],
   },
