@@ -114,6 +114,7 @@ export const competences = [
 export const saes = [
   {
     code: 'SAÉ · S6',
+    img: 'cover-voronoi.png',
     titre: 'Diagramme de Voronoï — application web (S6A01 · Groupe J)',
     objectif:
       'Développer une application web générant un diagramme de Voronoï à partir de points fournis par l’utilisateur (fichier .txt de coordonnées), avec calcul automatique et export du résultat en SVG.',
