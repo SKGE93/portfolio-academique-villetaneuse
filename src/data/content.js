@@ -249,8 +249,8 @@ export const saesY1 = [
     semestre: 'S2',
     titre: 'La ferme de la ville (simulation client / développeur)',
     desc: 'Mon projet de simulation client développeur, j’ai conçu un site sur un thème imposé en intégrant les retours du client à chaque étape, du recueil de besoins jusqu’à la livraison.',
-    img: 'cover-fermedelaville.png',
-    gallery: ['cover-fermedelaville.png', 'simulation-1.png', 'simulation-2.png', 'simulation-3.png', 'simulation-4.png', 'simulation-5.png', 'simulation-6.png', 'simulation-7.png', 'simulation-8.png', 'simulation-9.png'],
+    img: 'simulation-5.png',
+    gallery: ['simulation-5.png', 'simulation-1.png', 'simulation-2.png', 'simulation-3.png', 'simulation-4.png', 'simulation-6.png', 'simulation-7.png', 'simulation-8.png', 'simulation-9.png'],
   },
   // Collaborer
   {
@@ -364,7 +364,7 @@ export const projects = [
   },
   {
     nom: 'La ferme de la ville',
-    img: 'cover-fermedelaville.png',
+    img: 'simulation-5.png',
     type: 'Universitaire',
     annee: '2023',
     desc: 'J’ai joué le rôle du développeur face à un client, en adaptant le site à chaque retour reçu. J’ai aimé cette relation itérative qui m’a appris à accueillir les feedbacks et à garder un code capable d’évoluer.',
