@@ -114,17 +114,23 @@ export const competences = [
 export const saes = [
   {
     code: 'SAÉ · S6',
-    titre: 'SAÉ du semestre 6 — à venir',
-    objectif: 'À compléter — Séraphin enverra le détail de la SAÉ du S6.',
-    equipe: 'À compléter',
+    titre: 'Diagramme de Voronoï — application web (S6A01 · Groupe J)',
+    objectif:
+      'Développer une application web générant un diagramme de Voronoï à partir de points fournis par l’utilisateur (fichier .txt de coordonnées), avec calcul automatique et export du résultat en SVG.',
+    equipe: 'Projet de groupe (Groupe J)',
     duree: 'Semestre 6',
-    taches: ['À compléter'],
-    outils: ['À compléter'],
-    resultats: 'À compléter.',
-    valorisation: 'À compléter.',
-    pointsForts: ['À compléter'],
-    vigilance: ['À compléter'],
-    acquis: ['À compléter'],
+    taches: [
+      'Phase 1 — implémentation : chargement d’un fichier de coordonnées, calcul du diagramme de Voronoï, export SVG + contrôles de validité des données',
+      'Phase 2 — comparaison de 4 IA génératives (ChatGPT, Claude, Gemini, Mistral) pour régénérer/améliorer l’application',
+      'Phase 3 — travail individuel d’approfondissement',
+      'Tests unitaires (Vitest) et tests end-to-end (Playwright)',
+    ],
+    outils: ['JavaScript', 'D3.js (Delaunay/Voronoï)', 'SVG', 'Vite', 'Vitest', 'Playwright'],
+    resultats: 'Application générant et exportant des diagrammes de Voronoï, accompagnée d’une étude comparative des implémentations produites par différentes IA.',
+    valorisation: 'Algorithmes géométriques, qualité logicielle (tests unitaires + e2e) et regard critique sur les outils d’IA générative — en plein dans mon orientation Data & IA.',
+    pointsForts: ['Sujet algorithmique exigeant (géométrie de Voronoï / Delaunay)', 'Démarche de tests automatisés (Vitest + Playwright)'],
+    vigilance: ['Contrôler la validité des données d’entrée pour éviter un rendu vide (à confirmer)'],
+    acquis: ['Comparer objectivement plusieurs IA sur une même tâche technique (à confirmer)'],
   },
   {
     code: 'SAÉ · S5',
