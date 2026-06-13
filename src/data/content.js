@@ -166,25 +166,100 @@ export const saes = [
     vigilance: ['Coordination du travail de groupe sur la même base de code (à confirmer)'],
     acquis: ['Mieux découper les tâches Git en amont (à confirmer)'],
   },
+]
+
+// SAÉ de 1ʳᵉ année — 1 par compétence et par semestre (S1 & S2).
+// ⚠️ L'affectation S1/S2 est une 1ʳᵉ proposition à ajuster ; « à compléter » = créneau à remplir.
+export const saesY1 = [
+  // — Réaliser —
   {
-    code: 'SAÉ · S2',
-    titre: 'Site exposition « À quatre mains » (Basquiat & Warhol)',
-    objectif:
-      'À partir des œuvres collaboratives de Basquiat et Warhol, concevoir un site retraçant l’exposition « À quatre mains » tout en imaginant une exposition fictive à venir.',
-    equipe: 'Projet de groupe',
-    duree: 'Semestre 2 (fin de 1ʳᵉ année)',
-    taches: [
-      'Maquettage Figma',
-      'Intégration HTML / CSS, intégration de vidéos',
-      'Fonctionnalité de traduction en anglais via JavaScript',
-      'Invention d’une exposition future (recherche & créativité)',
-    ],
-    outils: ['HTML', 'CSS', 'JavaScript', 'Figma'],
-    resultats: 'Premier site complet mobilisant l’ensemble des compétences de 1ʳᵉ année — résultat dont je suis très satisfait.',
-    valorisation: 'Démonstration de bout en bout de la chaîne front (maquette → intégration → interactivité) et de ma progression sur un an.',
-    pointsForts: ['Thème artistique laissant beaucoup de liberté créative', 'Mobilisation de toutes les compétences de 1ʳᵉ année'],
-    vigilance: ['Code JS encore peu structuré à ce stade (à confirmer)'],
-    acquis: ['Bases solides réinvesties dans les projets suivants'],
+    competence: 'Réaliser',
+    color: 'var(--violet)',
+    semestre: 'S1',
+    titre: 'Tableaux & calculs en Python',
+    desc: 'Manipulation de tableaux et calculs de directions (latitude/longitude) — premier langage appris, construction de la logique de développement.',
+  },
+  {
+    competence: 'Réaliser',
+    color: 'var(--violet)',
+    semestre: 'S2',
+    titre: 'POO en Java (calculatrice + formes)',
+    desc: 'Calculatrice avec gestion d’exceptions (try-catch) et dessin de formes géométriques : héritage, interfaces, bibliothèques graphiques.',
+  },
+  // — Optimiser —
+  {
+    competence: 'Optimiser',
+    color: 'var(--coral)',
+    semestre: 'S1',
+    titre: 'À compléter',
+    desc: 'Ajouter la SAÉ d’optimisation du semestre 1.',
+  },
+  {
+    competence: 'Optimiser',
+    color: 'var(--coral)',
+    semestre: 'S2',
+    titre: 'Ensemble de Mandelbrot (Python)',
+    desc: 'Algorithmes manipulant des nombres complexes et générant des graphes — algorithmique d’un point de vue mathématique.',
+  },
+  // — Administrer —
+  {
+    competence: 'Administrer',
+    color: 'var(--sky)',
+    semestre: 'S1',
+    titre: 'Préparation d’un serveur',
+    desc: 'Première installation de services réseau ; rédaction et présentation d’un compte rendu technique.',
+  },
+  {
+    competence: 'Administrer',
+    color: 'var(--sky)',
+    semestre: 'S2',
+    titre: 'Environnement LAMP',
+    desc: 'Mise en place d’un poste de développement : Linux, Apache, MySQL/MariaDB, PHP.',
+  },
+  // — Gérer —
+  {
+    competence: 'Gérer',
+    color: 'var(--mint)',
+    semestre: 'S1',
+    titre: 'Base de données universitaire',
+    desc: 'Conception d’un modèle de données (tables étudiant, évaluation…) répondant à un système d’information.',
+  },
+  {
+    competence: 'Gérer',
+    color: 'var(--mint)',
+    semestre: 'S2',
+    titre: 'Système de gestion des notes',
+    desc: 'Modèle de données pour notes/bilans + restrictions d’accès par rôle (étudiants, enseignants, responsables).',
+  },
+  // — Conduire —
+  {
+    competence: 'Conduire',
+    color: 'var(--amber)',
+    semestre: 'S1',
+    titre: 'À compléter',
+    desc: 'Ajouter la SAÉ de conduite de projet du semestre 1.',
+  },
+  {
+    competence: 'Conduire',
+    color: 'var(--amber)',
+    semestre: 'S2',
+    titre: 'Simulation client / développeur',
+    desc: 'Recueil de besoins, cahier des charges, travail à distance (maquettes, mails, gestion des délais).',
+  },
+  // — Collaborer —
+  {
+    competence: 'Collaborer',
+    color: 'var(--pink)',
+    semestre: 'S1',
+    titre: 'À compléter',
+    desc: 'Ajouter la SAÉ de travail en équipe du semestre 1.',
+  },
+  {
+    competence: 'Collaborer',
+    color: 'var(--pink)',
+    semestre: 'S2',
+    titre: 'Site « À quatre mains » (Basquiat & Warhol)',
+    desc: 'Projet de groupe : site d’exposition, traduction en anglais via JavaScript, premier site complet.',
   },
 ]
 

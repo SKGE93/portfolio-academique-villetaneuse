@@ -1,5 +1,6 @@
+import { motion } from 'framer-motion'
 import Reveal from './Reveal'
-import { saes } from '../data/content'
+import { saes, saesY1 } from '../data/content'
 
 export default function Saes() {
   return (
@@ -14,12 +15,44 @@ export default function Saes() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="section-lead">
-              Pour chaque SAÉ : un mémo (objectif, équipe, durée, tâches, outils, résultats)
-              et une auto-évaluation critique.
+              Les SAÉ (Situations d’Apprentissage et d’Évaluation) jalonnent les trois années :
+              une par compétence et par semestre en 1ʳᵉ année, puis des projets plus ambitieux ensuite.
             </p>
           </Reveal>
         </div>
 
+        {/* — 1ʳᵉ année : grille compacte, 1 par compétence × semestre — */}
+        <Reveal>
+          <h3 className="saes__sub">1ʳᵉ année — une SAÉ par compétence (S1 &amp; S2)</h3>
+        </Reveal>
+        <div className="saey1-grid">
+          {saesY1.map((s, i) => {
+            const todo = s.titre === 'À compléter'
+            return (
+              <motion.article
+                key={`${s.competence}-${s.semestre}`}
+                className={`saey1-card ${todo ? 'is-todo' : ''}`}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-40px' }}
+                transition={{ delay: (i % 4) * 0.05, duration: 0.5 }}
+                style={{ '--accent': s.color }}
+              >
+                <header className="saey1-card__top">
+                  <span className="saey1-card__comp">{s.competence}</span>
+                  <span className="saey1-card__sem">{s.semestre}</span>
+                </header>
+                <h4 className="saey1-card__title">{s.titre}</h4>
+                <p className="saey1-card__desc">{s.desc}</p>
+              </motion.article>
+            )
+          })}
+        </div>
+
+        {/* — 2ᵉ & 3ᵉ année : cartes détaillées — */}
+        <Reveal>
+          <h3 className="saes__sub saes__sub--mt">2ᵉ &amp; 3ᵉ année — SAÉ projets (mémo &amp; auto-évaluation)</h3>
+        </Reveal>
         <div className="sae-list">
           {saes.map((s, i) => (
             <Reveal delay={i * 0.06} key={i}>

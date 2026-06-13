@@ -246,6 +246,38 @@
 .sae-col--next li::before { background: var(--violet); }
 .sae-card__tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
 
+.saes__sub {
+  font-family: var(--font-display); font-weight: 700; font-size: 1.15rem;
+  letter-spacing: -0.01em; margin-bottom: 22px;
+  display: flex; align-items: center; gap: 12px;
+}
+.saes__sub::before { content: ''; width: 22px; height: 3px; background: var(--coral); border-radius: 3px; }
+.saes__sub--mt { margin-top: 56px; }
+
+.saey1-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+  margin-bottom: 8px;
+}
+.saey1-card {
+  position: relative; padding: 22px;
+  border-radius: 18px; background: var(--card);
+  border: 1px solid var(--line); border-top: 4px solid var(--accent);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.saey1-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-sm); }
+.saey1-card.is-todo { background: repeating-linear-gradient(45deg, #fff, #fff 10px, var(--paper-2) 10px, var(--paper-2) 20px); opacity: 0.85; }
+.saey1-card__top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.saey1-card__comp {
+  font-family: var(--font-display); font-weight: 600; font-size: 0.72rem;
+  letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent);
+}
+.saey1-card__sem {
+  font-family: var(--font-display); font-weight: 700; font-size: 0.72rem;
+  padding: 3px 9px; border-radius: 100px; background: var(--ink); color: var(--paper);
+}
+.saey1-card__title { font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; }
+.saey1-card__desc { color: var(--muted); font-size: 0.88rem; margin-top: 8px; }
+
 /* ============================ STAGE ============================ */
 .stage { background: var(--ink); color: var(--paper); overflow: hidden; }
 .stage .eyebrow { color: var(--amber); }
@@ -395,12 +427,14 @@
   .comp-grid { grid-template-columns: 1fr 1fr; }
   .stage__grid { grid-template-columns: 1fr; }
   .proj-grid { grid-template-columns: 1fr 1fr; }
+  .saey1-grid { grid-template-columns: 1fr 1fr; }
   .soft__grid { grid-template-columns: 1fr; }
   .soft__left { position: static; }
 }
 @media (max-width: 600px) {
   .comp-grid { grid-template-columns: 1fr; }
   .proj-grid { grid-template-columns: 1fr; }
+  .saey1-grid { grid-template-columns: 1fr; }
   .sae-card__meta { grid-template-columns: 1fr; }
   .sae-card__cols { grid-template-columns: 1fr; }
   .stage__crit { grid-template-columns: 1fr; }
