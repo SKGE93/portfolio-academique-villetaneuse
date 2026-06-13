@@ -63,6 +63,9 @@ export default function Saes() {
                 </header>
                 <h4 className="saey1-card__title">{s.titre}</h4>
                 <p className="saey1-card__desc">{s.desc}</p>
+                {s.acquis && (
+                  <p className="saey1-card__acquis"><b>Acquis</b> {s.acquis}</p>
+                )}
               </motion.article>
             )
           })}
