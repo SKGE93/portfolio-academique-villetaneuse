@@ -147,9 +147,9 @@ export const saes = [
     outils: ['Flutter', 'Dart', 'JSON', 'Cross-platform'],
     resultats: 'On a livré une application mobile complète qui fonctionne sur Android et iOS.',
     valorisation: 'Une expérience concrète du mobile et du travail en équipe de 5, utile pour des missions full stack ou mobile.',
-    pointsForts: ['J’ai réussi un projet sur un langage que je ne maîtrisais pas au départ (Flutter et Dart)', 'J’ai travaillé dans une équipe élargie de 5 personnes'],
-    vigilance: ['Mieux synchroniser les contributions à 5 (à confirmer)'],
-    acquis: ['J’ai appris à réutiliser mes compétences existantes pour monter rapidement en compétence sur un nouveau langage'],
+    pointsForts: ['J’ai réussi un projet sur une techno mobile jamais vue en cours (Flutter et Dart)', 'La liberté de choisir un thème qui nous plaisait m’a donné envie de m’impliquer et d’exprimer ma créativité'],
+    vigilance: ['La répartition des tâches à 5 demande une bonne coordination', 'Se lancer sur une technologie inconnue a demandé un temps d’adaptation'],
+    acquis: ['J’ai appris à réutiliser mes acquis pour monter vite en compétence sur un nouveau langage', 'J’ai retenu que la liberté sur un projet motive plus que des consignes pas à pas'],
   },
   {
     code: 'SAÉ · S3 & S4',
@@ -168,9 +168,9 @@ export const saes = [
     outils: ['PHP', 'MVC', 'WebSocket', 'Ratchet', 'JavaScript', 'Figma'],
     resultats: 'On a obtenu des conversations fluides et instantanées entre utilisateurs, avec la mécanique d’annotation.',
     valorisation: 'Une maîtrise du temps réel (WebSocket) et d’une architecture MVC propre, directement valorisable en stage ou en alternance web.',
-    pointsForts: ['J’ai structuré une architecture MVC claire et séparée', 'J’ai découvert le temps réel avec les WebSocket'],
-    vigilance: ['Mieux coordonner le travail de groupe sur la même base de code (à confirmer)'],
-    acquis: ['J’ai compris qu’il faut mieux découper les tâches Git en amont (à confirmer)'],
+    pointsForts: ['On a bien réparti les tâches et bien progressé sur GitHub en équipe', 'J’ai découvert le temps réel avec les WebSocket'],
+    vigilance: ['Quelques complications côté base de données, mais rien de bloquant'],
+    acquis: ['Je me suis formé en autonomie sur un langage plus poussé (PHP) que les bases vues en S1', 'J’ai consolidé l’architecture MVC déjà abordée en cours'],
   },
 ]
 
