@@ -90,7 +90,7 @@ export const competences = [
     resume:
       'J’ai adoré la simulation client développeur parce qu’elle m’a fait toucher du doigt mon objectif de devenir développeur web. En jouant tour à tour le client et le développeur, j’ai appris à recueillir un besoin, à dialoguer et à composer avec un client qui tarde parfois à répondre. J’ai compris concrètement comment un simple retard de réponse peut décaler tout un projet.',
     outils: ['Cahier des charges', 'Maquettage', 'HTML/CSS/JS', 'Gestion des délais'],
-    preuves: ['Simulation client/développeur'],
+    preuves: ['La ferme de la ville (simulation client/développeur)'],
     ressources: ['Gestion de projet', 'Conduite de projet'],
   },
   {
@@ -200,13 +200,6 @@ export const saesY1 = [
   {
     competence: 'Optimiser',
     color: 'var(--coral)',
-    semestre: 'S1',
-    titre: 'À compléter',
-    desc: 'Ajouter la SAÉ d’optimisation du semestre 1.',
-  },
-  {
-    competence: 'Optimiser',
-    color: 'var(--coral)',
     semestre: 'S2',
     titre: 'Ensemble de Mandelbrot (Python)',
     desc: 'Des algorithmes qui manipulent des nombres complexes et génèrent des graphes, de l’algorithmique vue sous un angle très mathématique.',
@@ -220,6 +213,7 @@ export const saesY1 = [
     semestre: 'S1',
     titre: 'Préparation d’un serveur',
     desc: 'Ma première installation de services réseau, avec la rédaction et la présentation d’un compte rendu technique.',
+    img: 'terminal-serveur.svg',
   },
   {
     competence: 'Administrer',
@@ -227,6 +221,7 @@ export const saesY1 = [
     semestre: 'S2',
     titre: 'Environnement LAMP',
     desc: 'La mise en place d’un poste de développement avec Linux, Apache, MySQL/MariaDB et PHP.',
+    img: 'terminal-lamp.svg',
   },
   // Gérer
   {
@@ -251,27 +246,13 @@ export const saesY1 = [
   {
     competence: 'Conduire',
     color: 'var(--amber)',
-    semestre: 'S1',
-    titre: 'À compléter',
-    desc: 'Ajouter la SAÉ de conduite de projet du semestre 1.',
-  },
-  {
-    competence: 'Conduire',
-    color: 'var(--amber)',
     semestre: 'S2',
-    titre: 'Simulation client / développeur',
-    desc: 'Du recueil de besoins, un cahier des charges et du travail à distance (maquettes, mails, gestion des délais).',
-    img: 'simulation-1.png',
-    gallery: ['simulation-1.png', 'simulation-2.png', 'simulation-3.png', 'simulation-4.png', 'simulation-5.png', 'simulation-6.png', 'simulation-7.png', 'simulation-8.png', 'simulation-9.png'],
+    titre: 'La ferme de la ville (simulation client / développeur)',
+    desc: 'Mon projet de simulation client développeur, j’ai conçu un site sur un thème imposé en intégrant les retours du client à chaque étape, du recueil de besoins jusqu’à la livraison.',
+    img: 'cover-fermedelaville.png',
+    gallery: ['cover-fermedelaville.png', 'simulation-1.png', 'simulation-2.png', 'simulation-3.png', 'simulation-4.png', 'simulation-5.png', 'simulation-6.png', 'simulation-7.png', 'simulation-8.png', 'simulation-9.png'],
   },
   // Collaborer
-  {
-    competence: 'Collaborer',
-    color: 'var(--pink)',
-    semestre: 'S1',
-    titre: 'À compléter',
-    desc: 'Ajouter la SAÉ de travail en équipe du semestre 1.',
-  },
   {
     competence: 'Collaborer',
     color: 'var(--pink)',
@@ -349,6 +330,15 @@ export const projects = [
     link: 'https://github.com/SKGE93/weather-dash',
   },
   {
+    nom: 'OtakuGo',
+    img: 'cover-otakugo.png',
+    type: 'Universitaire',
+    annee: '2025',
+    desc: 'Avec une équipe de cinq nous avons créé cette application mobile qui recommande des contenus selon les goûts de l’utilisateur. J’étais fier d’y arriver alors que je ne connaissais ni Flutter ni Dart au départ, et ça m’a prouvé que je peux monter vite en compétence.',
+    tech: ['Flutter', 'Dart', 'JSON'],
+    link: 'https://github.com/SKGE93/Application-mobile-de-recommendations-anime',
+  },
+  {
     nom: 'Messagerie annotée',
     img: 'cover-messagerie.png',
     type: 'Universitaire',
@@ -356,15 +346,6 @@ export const projects = [
     desc: 'En groupe nous avons imaginé une messagerie où il faut annoter les messages pour pouvoir continuer à discuter, ce qui pousse à une lecture plus active. J’ai trouvé passionnant de gérer le temps réel avec les WebSocket et de structurer le back en PHP avec une architecture MVC.',
     tech: ['PHP', 'MVC', 'WebSocket', 'Ratchet', 'Figma'],
     link: 'https://github.com/Cheick6/SAE_S4',
-  },
-  {
-    nom: 'OtakuGo',
-    img: 'cover-otakugo.png',
-    type: 'Universitaire',
-    annee: '2024',
-    desc: 'Avec une équipe de cinq nous avons créé cette application mobile qui recommande des contenus selon les goûts de l’utilisateur. J’étais fier d’y arriver alors que je ne connaissais ni Flutter ni Dart au départ, et ça m’a prouvé que je peux monter vite en compétence.',
-    tech: ['Flutter', 'Dart', 'JSON'],
-    link: 'https://github.com/SKGE93/Application-mobile-de-recommendations-anime',
   },
   {
     nom: 'Expo « À quatre mains », Basquiat & Warhol',
