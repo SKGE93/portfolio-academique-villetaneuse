@@ -86,7 +86,7 @@ export const competences = [
     sous: 'un projet',
     color: 'var(--amber)',
     resume:
-      'J’ai adoré la simulation client développeur parce qu’elle m’a fait toucher du doigt mon objectif de devenir développeur web. En jouant tour à tour le client et le développeur, j’ai appris à recueillir un besoin, à dialoguer et à composer avec un client qui tarde parfois à répondre. J’ai compris concrètement comment un simple retard de réponse peut décaler tout un projet.',
+      'J’ai beaucoup aimé la simulation client développeur parce qu’elle m’a fait toucher du doigt mon objectif de devenir développeur web. En jouant tour à tour le client et le développeur, j’ai appris à recueillir un besoin, à dialoguer et à composer avec un client qui tarde parfois à répondre. J’ai compris concrètement comment un simple retard de réponse peut décaler tout un projet.',
     outils: ['Cahier des charges', 'Maquettage', 'HTML/CSS/JS', 'Gestion des délais'],
     preuves: ['La ferme de la ville (simulation client/développeur)'],
     ressources: ['Gestion de projet', 'Conduite de projet'],
@@ -98,7 +98,7 @@ export const competences = [
     sous: 'au sein d’une équipe informatique',
     color: 'var(--pink)',
     resume:
-      'Le site de l’exposition « À quatre mains » reste mon projet de groupe préféré. Le thème artistique m’a laissé beaucoup de liberté créative et j’ai pris plaisir à imaginer une exposition fictive. C’est aussi là que j’ai fait mes premiers pas en JavaScript, et voir ma progression sur une année entière m’a rendu vraiment fier.',
+      'Le site de l’exposition « À quatre mains » reste mon projet de groupe préféré de première année. Le thème artistique m’a laissé beaucoup de liberté créative et j’ai pris plaisir à imaginer une exposition fictive. C’est aussi là que j’ai fait mes premiers pas en JavaScript, et voir ma progression sur une année entière m’a rendu vraiment fier.',
     outils: ['HTML', 'CSS', 'JavaScript', 'Figma', 'Git'],
     preuves: ['Site Basquiat & Warhol'],
     ressources: ['Travail en équipe', 'Communication'],
