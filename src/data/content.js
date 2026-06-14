@@ -19,8 +19,8 @@ export const profile = {
 export const intro = {
   paragraphs: [
     'Comprendre comment les choses fonctionnent a toujours été ma plus grande curiosité, et c’est elle qui m’a naturellement mené vers l’informatique puis vers le développement. Le BUT Informatique de l’IUT de Villetaneuse m’a permis d’en faire un vrai métier, en construisant des bases solides en développement web, en programmation et en gestion de bases de données, au fil des projets académiques, des SAÉ et des mises en situation professionnelle.',
-    'J’ai un intérêt particulier pour le développement web et mobile, et je m’oriente aujourd’hui vers la data et l’intelligence artificielle. Je nourris cette direction par une veille active sur Hacker News, Reddit et Dev.to autour de l’IA générative et des LLMs.',
-    'Mon ambition est de devenir développeur full stack avec une spécialisation Data & IA. C’est pourquoi je poursuis mes études en MSc Data Engineering à Aivancity, école spécialisée en IA et data, après avoir consolidé mes bases tout au long du BUT.',
+    'J’ai un faible pour le développement web et mobile, et depuis quelque temps je me tourne de plus en plus vers la data et l’intelligence artificielle. Je suis ça de près en lisant Hacker News, Reddit ou Dev.to, surtout tout ce qui touche à l’IA générative et aux LLMs.',
+    'À terme, j’aimerais devenir développeur full stack tout en me spécialisant en Data et IA. C’est pour ça que je continue en MSc Data Engineering à Aivancity, une école centrée sur l’IA et la data, après avoir bien posé mes bases pendant le BUT.',
   ],
   highlights: [
     { k: '6', v: 'compétences du référentiel' },
@@ -123,7 +123,7 @@ export const saes = [
     ],
     outils: ['JavaScript', 'D3.js (Delaunay/Voronoï)', 'SVG', 'Vite', 'Vitest', 'Playwright'],
     resultats: 'On a obtenu une application qui génère et exporte des diagrammes de Voronoï, accompagnée d’une étude comparative des implémentations produites par différentes IA.',
-    valorisation: 'Des algorithmes géométriques, de la qualité logicielle (tests unitaires et de bout en bout) et un regard critique sur les outils d’IA générative, en plein dans mon orientation Data & IA.',
+    valorisation: 'Ce projet touche à des algos géométriques, à de la qualité de code avec des tests, et surtout à une vraie réflexion sur quand utiliser l’IA ou pas. C’est typiquement le genre de sujet qui me parle pour la suite en Data et IA.',
     pointsForts: ['Je me suis formé à la génération de prompts pour obtenir un contenu de qualité sans gaspiller de tokens', 'J’ai comparé plusieurs IA sur la même tâche et mis en place de vrais tests automatisés (Vitest et Playwright)'],
     vigilance: ['Coder la logique mathématique du diagramme a été la partie la plus pénible', 'La qualité du prompt change tout, un prompt mal rédigé donne un résultat faible'],
     acquis: ['Certaines IA sont plus fortes en code, mais la qualité du prompt joue énormément sur le résultat', 'L’IA n’est pas toujours la meilleure solution, j’ai d’ailleurs eu recours à d’autres approches pendant le projet'],
@@ -144,7 +144,7 @@ export const saes = [
     ],
     outils: ['Flutter', 'Dart', 'JSON', 'Cross-platform'],
     resultats: 'On a livré une application mobile complète qui fonctionne sur Android et iOS.',
-    valorisation: 'Une expérience concrète du mobile et du travail en équipe de 5, utile pour des missions full stack ou mobile.',
+    valorisation: 'Ça m’a donné une vraie première expérience du mobile et du travail à plusieurs, deux choses que je pourrai réutiliser en stage ou en alternance.',
     pointsForts: ['J’ai réussi un projet sur une techno mobile jamais vue en cours (Flutter et Dart)', 'La liberté de choisir un thème qui nous plaisait m’a donné envie de m’impliquer et d’exprimer ma créativité'],
     vigilance: ['La répartition des tâches à 5 demande une bonne coordination', 'Se lancer sur une technologie inconnue a demandé un temps d’adaptation'],
     acquis: ['J’ai appris à réutiliser mes acquis pour monter vite en compétence sur un nouveau langage', 'J’ai retenu que la liberté sur un projet motive plus que des consignes pas à pas'],
@@ -165,7 +165,7 @@ export const saes = [
     ],
     outils: ['PHP', 'MVC', 'WebSocket', 'Ratchet', 'JavaScript', 'Figma'],
     resultats: 'On a obtenu des conversations fluides et instantanées entre utilisateurs, avec la mécanique d’annotation.',
-    valorisation: 'Une maîtrise du temps réel (WebSocket) et d’une architecture MVC propre, directement valorisable en stage ou en alternance web.',
+    valorisation: 'J’y ai pris en main le temps réel avec les WebSocket et une architecture MVC propre, ce qui me servira clairement sur des projets web en entreprise.',
     pointsForts: ['On a bien réparti les tâches et bien progressé sur GitHub en équipe', 'J’ai découvert le temps réel avec les WebSocket'],
     vigilance: ['Quelques complications côté base de données, mais rien de bloquant'],
     acquis: ['Je me suis formé en autonomie sur un langage plus poussé (PHP) que les bases vues en S1', 'J’ai consolidé l’architecture MVC déjà abordée en cours'],
@@ -397,7 +397,7 @@ export const projects = [
 // SOFT SKILLS & EXPÉRIENCE TERRAIN (sécurité événementielle / JO 2024)
 export const softskills = {
   intro:
-    'En dehors du code, mon expérience d’agent de sécurité événementielle, notamment lors des Jeux Olympiques 2024, a forgé des qualités humaines que je réinvestis dans le travail en équipe technique.',
+    'En dehors du code, j’ai aussi travaillé comme agent de sécurité événementielle, notamment pendant les Jeux Olympiques 2024. Ça m’a appris des choses qu’on ne voit pas derrière un écran et que je retrouve dès que je travaille en équipe.',
   experiences: [
     {
       poste: 'Agent SSIAP1 aux Jeux Olympiques 2024',
@@ -434,8 +434,8 @@ export const softskills = {
 // CONCLUSION
 export const conclusion = {
   paragraphs: [
-    'Au fil du BUT, mes points forts se sont dessinés. J’ai gagné une vraie polyvalence full stack, du front React et Angular au back PHP, Java et Python, une capacité d’automatisation concrète démontrée en stage, et une aisance à apprendre de nouvelles technologies en autonomie.',
-    'Mes points de vigilance restent la priorisation quand les chantiers se multiplient et la structuration du travail de groupe, deux axes que j’ai progressivement améliorés d’une SAÉ à l’autre.',
-    'Pour la suite, j’emporte une méthode simple, documenter, découper tôt et écouter les retours. Ces acquis nourrissent directement mon orientation vers la Data & l’IA et ma poursuite d’études en MSc Data Engineering à Aivancity.',
+    'Quand je regarde ces trois années, je vois surtout une polyvalence qui s’est installée. Je passe du front en React ou Angular au back en PHP, Java ou Python, j’ai automatisé des choses utiles pendant mon stage, et j’ai pris l’habitude d’apprendre une nouvelle techno par moi-même quand il le faut.',
+    'Là où je dois encore progresser, c’est garder le cap quand les tâches s’accumulent et mieux organiser le travail à plusieurs. Ce sont deux points que j’ai vus s’améliorer petit à petit d’une SAÉ à l’autre.',
+    'Au final, je retiens quelques réflexes qui m’aident beaucoup, comme documenter ce que je fais, m’y prendre tôt et écouter les retours. Ce sont eux qui me servent aujourd’hui pour avancer vers la Data et l’IA, avec mon MSc Data Engineering à Aivancity.',
   ],
 }
