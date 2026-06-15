@@ -283,14 +283,16 @@
 }
 .saey1-card__title { font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; }
 .saey1-card__desc { color: var(--muted); font-size: 0.88rem; margin-top: 8px; }
-.saey1-card__acquis {
+.saey1-card__refl {
   margin-top: 12px; padding-top: 11px; border-top: 1px dashed var(--line);
-  font-size: 0.86rem; color: var(--fg); line-height: 1.45;
+  display: flex; flex-direction: column; gap: 9px;
 }
-.saey1-card__acquis b {
-  display: block; font-family: var(--font-display); font-size: 0.64rem; font-weight: 600;
+.saey1-card__refl p { font-size: 0.85rem; color: var(--fg); line-height: 1.45; }
+.saey1-card__refl b {
+  display: block; font-family: var(--font-display); font-size: 0.63rem; font-weight: 600;
   text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 3px;
 }
+.saey1-card__refl b.is-watch { color: var(--amber); }
 
 /* ============================ STAGE ============================ */
 .stage { background: var(--ink); color: var(--paper); overflow: hidden; }

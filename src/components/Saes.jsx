@@ -63,8 +63,11 @@ export default function Saes() {
                 </header>
                 <h4 className="saey1-card__title">{s.titre}</h4>
                 <p className="saey1-card__desc">{s.desc}</p>
-                {s.acquis && (
-                  <p className="saey1-card__acquis"><b>Acquis</b> {s.acquis}</p>
+                {(s.acquis || s.vigilance) && (
+                  <div className="saey1-card__refl">
+                    {s.acquis && <p><b>Acquis</b> {s.acquis}</p>}
+                    {s.vigilance && <p><b className="is-watch">Point de vigilance</b> {s.vigilance}</p>}
+                  </div>
                 )}
               </motion.article>
             )
